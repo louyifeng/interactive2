@@ -6,72 +6,95 @@
     <title>Ivan's Homepage</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="assets/main.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,400i,500,700" rel="stylesheet">
 </head>
 
 <style type="text/css">
-    body{
+	a{
+		text-decoration: none;
+		color: white;
+		font-size:0.8em;
+		line-height: 1.6;
+	}
 
+	a:hover{
+		cursor: pointer;
+		background-color: rgba(255,255,255,0.3);
+
+	}
+
+	body{
+        color: white;
+        font-family: 'Roboto', sans-serif; 
+		font-weight: 100;
+	}
+    
+    .container{
+        position: absolute;
+    	left: 15%;
+    	top: 10%;
+    	animation: title 2s;
     }
 
 	.title{
-		font-family: 'Dosis', sans-serif; 
-		font-size: 5em;
-	}
+		font-family: 'Roboto', sans-serif; 
+		font-size: 3em;
+		font-weight: 100;
+		line-height: 0.8;
+		}
+
+	@keyframes title {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 
 	h1{
-		font-family: 'Dosis', sans-serif; 
+		font-weight: 400;
+		font-size: 1.5em;
+		line-height: 0.8;
+	}
+
+	h2{
+		font-weight: 300;
+		font-size: 1em;
+
 	}
 
 .fullscreen-bg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -100;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
 }
 
 .fullscreen-bg__video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-@media (min-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
-    height: 300%;
-    top: -100%;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
-    width: 300%;
-    left: -100%;
-  }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
 }
 
 @media (max-width: 767px) {
-  .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
-  }
+    .fullscreen-bg {
+        background: black;
+    }
 
-  .fullscreen-bg__video {
-    display: none;
-  }
+    .fullscreen-bg__video {
+        display: none;
+    }
 }
 </style>
-
-<script type="text/javascript">
-  
-document.getElementById("video").playbackRate = 5;
-
- 
-</script>
 
 <body>
     <div class="fullscreen-bg">
@@ -82,33 +105,48 @@ document.getElementById("video").playbackRate = 5;
     </video>
     </div>
 
+    <div class="container">
+	<div class="title"><span style="font-weight: 100; font-size: 1.2em;">I</span>VAN <span style="font-weight: 100; font-size: 1.2em;">L</span>OU 
 
-	<div class="title">楼逸峰 IVAN LOU</div>
+	    <br>
+
+	    <span style="font-weight: 100; font-size: 0.4em; font-style: italic">California College of the Arts</span></div>
   <div>
+
+      <br><br>
       <h1>Exercises</h1>
       <a href="" target="blank">Spreadsheet Typeface</a><br>
       <a href="" target="blank">Coding from Life</a><br>
       <a href="" target="blank">:hover</a>
+      
   </div>
+  <br>
   <div>
       <h1>Presentation</h1>
       <a href="" target="blank">Pecha Kucha: Lorem Ipsum</a>
-  </div>
 
+  </div>
+      <br>
   <div>
       <h1>Projects</h1>
-      <h2>Project 1: Republish a Text</h2>
+      <h2>* Project 1: Republish a Text</h2>
       <a href="" target="blank">Prototype 1: Lorem Ipsum</a><br>
       <a href="" target="blank">Prototype 2: Lorem Ipsum</a><br>
       <a href="" target="blank">Final: Lorem Ipsum</a>
-      <h2>Project 2: CSS Typeface</h2>
+      <h2>* Project 2: CSS Typeface</h2>
       <a href="" target="blank">Sketches</a><br>
       <a href="" target="blank">Prototype: Lorem Ipsum</a><br>
       <a href="" target="blank">Final: Lorem Ipsum</a>
-      <h2>Project 3: Exhibition Microsite</h2>
+      <h2>* Project 3: Exhibition Microsite</h2>
       <a href="" target="blank">Sketches</a><br>
       <a href="" target="blank">Prototype: Lorem Ipsum</a><br>
       <a href="" target="blank">Final: Lorem Ipsum</a>
   </div>
+       <br>
+      <br>
+      <br>
+      <br>
+  </div>
+
 </body>
 </html>
