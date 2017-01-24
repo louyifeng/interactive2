@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="assets/main.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,400i,500,700" rel="stylesheet">
 </head>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 
 <style type="text/css">
 	a{
@@ -24,13 +26,14 @@
 	}
 
 	body{
+    margin: 0;
         color: white;
         font-family: 'Roboto', sans-serif; 
 		font-weight: 100;
 	}
     
     .container{
-        position: absolute;
+      position: absolute;
     	left: 15%;
     	top: 10%;
     	animation: title 4s;
@@ -94,7 +97,57 @@
         display: none;
     }
 }
+
+.desktop{
+
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  opacity: 0.7;
+  color: black;
+  position: absolute;
+  right: -50px;
+  top: 0px;
+  border-radius: 8%;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.desktop:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.desktopimg{
+  background-image: url(desktop.png);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  margin: 0;
+  z-index: 1000;
+  position: absolute;
+  animation: title 1s;
+}
 </style>
+
+
+<script>
+$(document).ready(function() {
+
+
+          $(".desktop").click(function() {
+          div = document.createElement('div');
+          $(div).addClass("desktopimg");
+          $("body").append(div);
+        });
+
+          
+         
+        });
+</script>
+
 
 <body>
     <div class="fullscreen-bg">
@@ -120,10 +173,11 @@
       <a href="" target="blank">:hover</a>
       
   </div>
+     
   <br>
   <div>
       <h1>Presentation</h1>
-      <a href="" target="blank">Pecha Kucha: Lorem Ipsum</a>
+      <a href="https://docs.google.com/presentation/d/1YTi3_EaOOJbbznobqWTRq9FyM6hlKjsBYIJca8Cq3Pk/edit?usp=sharing" >Pecha Kucha: Lorem Ipsum</a>
 
   </div>
       <br>
@@ -146,7 +200,12 @@
       <br>
       <br>
       <br>
+      <div class="desktop">
+        DESK<br>TOP
+      </div>
+
   </div>
 
+ 
 </body>
 </html>
