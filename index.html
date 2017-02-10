@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,400i,500,700" rel="stylesheet">
 </head>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
+      <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen">
+  <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 <style type="text/css">
 	a{
@@ -119,35 +120,28 @@
 .desktop:hover{
   opacity: 1;
   cursor: pointer;
+  -moz-box-shadow: 0 0 10px #ccc; 
+    -webkit-box-shadow: 0 0 10px #ccc; 
+    box-shadow: 0 0 10px #ccc;
+}
 }
 
-.desktopimg{
-  background-image: url(desktop.png);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  margin: 0;
-  z-index: 1000;
-  position: absolute;
-  animation: title 1s;
-}
+
 </style>
 
 
-<script>
-$(document).ready(function() {
 
 
-          $(".desktop").click(function() {
-          div = document.createElement('div');
-          $(div).addClass("desktopimg");
-          $("body").append(div);
-        });
+ <script>
+    $(document).ready(function() {
 
-          
-         
-        });
-</script>
+      $(".fancybox").fancybox({
+        nextEffect:'none',
+        prevEffect:'none'
+      });
+
+    });
+  </script>
 
 
 <body>
@@ -190,7 +184,7 @@ $(document).ready(function() {
       <a href="https://reallifetinder.wordpress.com" >Prototype 2: Real Life Tinder</a><br>
       <a href="http://ivanthematchmaker.tumblr.com">Final: Real Life Tinder | Ivan the Matchmaker</a>
       <h2>* Project 2: CSS Typeface</h2>
-      <a href="" target="blank">Sketches</a><br>
+      <a class="fancybox" rel="mt_shasta" href="sketches.jpg" title="1">Sketches</a><br>
       <a href="" target="blank">Prototype: Lorem Ipsum</a><br>
       <a href="" target="blank">Final: Lorem Ipsum</a>
       <h2>* Project 3: Exhibition Microsite</h2>
@@ -202,9 +196,9 @@ $(document).ready(function() {
       <br>
       <br>
       <br>
-      <div class="desktop">
+      <a class="fancybox" rel="mt_shasta" href="desktop.png" title="1"><div class="desktop">
         DESK<br>TOP
-      </div>
+      </div></a>
 
   </div>
 <audio src="kicks.mp3" autoplay>
