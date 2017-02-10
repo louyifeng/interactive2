@@ -9,8 +9,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,400i,500,700" rel="stylesheet">
 </head>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
       <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen">
   <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
 
 <style type="text/css">
 	a{
@@ -140,6 +142,65 @@
         prevEffect:'none'
       });
 
+      (function ($, F) {
+    F.transitions.resizeIn = function() {
+        var previous = F.previous,
+            current  = F.current,
+            startPos = previous.wrap.stop(true).position(),
+            endPos   = $.extend({opacity : 1}, current.pos);
+
+        startPos.width  = previous.wrap.width();
+        startPos.height = previous.wrap.height();
+
+        previous.wrap.stop(true).trigger('onReset').remove();
+
+        delete endPos.position;
+
+        current.inner.hide();
+
+        current.wrap.css(startPos).animate(endPos, {
+            duration : current.nextSpeed,
+            easing   : current.nextEasing,
+            step     : F.transitions.step,
+            complete : function() {
+                F._afterZoomIn();
+
+                current.inner.fadeIn("fast");
+            }
+        });
+    };
+
+}(jQuery, jQuery.fancybox));
+
+$(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+        nextMethod : 'resizeIn',
+        nextSpeed  : 250,
+        
+        prevMethod : false,
+        
+        helpers : {
+            title : {
+                type : 'inside'
+            }
+        }
+    });
+
+    $(".fancybox").fancybox({
+    helpers : {
+        title: {
+            type: 'outside'
+        }
+    }
+});
+
+    $(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+        padding : 0
+    });
+
     });
   </script>
 
@@ -184,7 +245,7 @@
       <a href="https://reallifetinder.wordpress.com" >Prototype 2: Real Life Tinder</a><br>
       <a href="http://ivanthematchmaker.tumblr.com">Final: Real Life Tinder | Ivan the Matchmaker</a>
       <h2>* Project 2: CSS Typeface</h2>
-      <a class="fancybox" rel="mt_shasta" href="sketches.jpg" title="1">Sketches</a><br>
+      <a class="fancybox" rel="mt_shasta" href="sketches.jpg" title="Sketches">Sketches</a><br>
       <a href="" target="blank">Prototype: Lorem Ipsum</a><br>
       <a href="" target="blank">Final: Lorem Ipsum</a>
       <h2>* Project 3: Exhibition Microsite</h2>
@@ -196,7 +257,7 @@
       <br>
       <br>
       <br>
-      <a class="fancybox" rel="mt_shasta" href="desktop.png" title="1"><div class="desktop">
+      <a class="fancybox" rel="mt_shasta" href="desktop.png" title="Desktop"><div class="desktop">
         DESK<br>TOP
       </div></a>
 
