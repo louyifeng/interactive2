@@ -1,0 +1,351 @@
+
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-size: 1000px;
+        background-color: black;
+      }
+
+      * {font-family: Helvetica, Verdana, Arial; font-size:0.95em}
+      
+
+      .opacity{
+        opacity: 0;
+        animation: blink 1s;
+      }
+
+      @keyframes blink{
+        0%   {opacity: 0.5}
+        45%  {opacity: 1}
+        50%  {opacity: 0}
+        55%  {opacity: 1}
+        65%  {opacity: 0}
+        70%  {opacity: 1}
+        75% {opacity: 0}
+        80% {opacity: 1}
+        85% {opacity: 0}
+      }
+
+      .a{
+        position: absolute;
+        left: 0px;
+      }
+
+      .va{
+        position: absolute;
+        left: 0px;
+      }
+
+      .ga{
+        position: absolute;
+        left: 0px;
+        
+      }
+
+      .bga{
+        position: absolute;
+        left: 0px;
+        display: none;
+      }
+      
+
+     
+
+      .b{
+        position: absolute;
+        left: -135px;
+        transform: scale(-1,1);
+      }
+      
+      .vb{
+        position: absolute;
+        left: -135px;
+        transform: scale(-1,1);
+      }
+
+      .gb{
+        position: absolute;
+        left: -135px;
+        transform: scale(-1,1);
+      
+      }
+
+      .bgb{
+        position: absolute;
+        left: -135px;
+        transform: scale(-1,1);
+        display: none;
+      }
+
+       .blur{
+        filter: blur(3.5px);
+        animation: blink 1s;
+      }
+
+      .blur2{
+        filter: blur(30.5px);
+        display: initial;
+        animation: blink 1s;
+      }
+  
+      .c{
+        position: absolute;
+        left: 185px;
+      }
+
+      .d{
+        position: absolute;
+        left: 244px;
+      }
+
+      .e{
+        position: absolute;
+        left: 345px;
+      }
+
+      .f{
+        position: absolute;
+        left: 435px;
+      }
+
+      .g{
+        position: absolute;
+        left: 520px;
+      }
+
+      .h{
+        position: absolute;
+        left: 380px;
+        transform: scale(-1,1);
+      }
+      
+      .i{
+        position: absolute;
+        left: 415px;
+        top:-27px;
+        transform: scale(-1,1);
+      }
+
+      .j{
+        position: absolute;
+        left: 476px;
+        top:96px;
+        transform: scale(-1,-1);
+      }
+
+      .k{
+        position: absolute;
+        left: -228px;
+        top:127px;
+        transform: scale(-1,1);
+      }
+
+      .l{
+        position: absolute;
+        left: 87px;
+        top:191px;
+        transform: scale(1,-1);
+      }
+
+      .m{
+        position: absolute;
+        left: 159px;
+        top:128px;
+        transform: scale(1,1);
+      }
+
+      .n{
+        position: absolute;
+        left: 86px;
+        top:128px;
+        transform: scale(-1,1);
+      }
+
+      .o{
+        position: absolute;
+        left: 418px;
+        top:128px;
+        transform: scale(1,1);
+      }
+
+      .p{
+        position: absolute;
+        left: 278px;
+        transform: scale(-1,-1);
+        top: 192px;
+      }
+
+      .q{
+        position: absolute;
+        left: 589px;
+        top:191px;
+        transform: scale(1,-1);
+      }
+
+      .r{
+        position: absolute;
+        left: 691px;
+        top:128px;
+        transform: scale(1,1);
+      }
+
+      .s{
+        position: absolute;
+        left: 787px;
+        top:131px;
+        transform: scale(1,1);
+      }
+
+      .t{
+        position: absolute;
+        left: 7px;
+        top:251px;
+      }
+
+      .u{
+        position: absolute;
+        left: 88px;
+        top:312px;
+        transform: scale(1,-1);
+      }
+
+      .v{
+        position: absolute;
+        left: 185px;
+        top:312px;
+        transform: scale(1,-1);
+      }
+
+      .w{
+        position: absolute;
+        left: 274px;
+        top:312px;
+        transform: scale(1,-1);
+      }
+
+      .x{
+        position: absolute;
+        left: 427px;
+        top:248px;
+        transform: scale(1,1);
+      }
+
+      .y{
+        position: absolute;
+        left: 520px;
+        top:312px;
+        transform: scale(1,-1);
+      }
+
+      .z{
+        position: absolute;
+        left: 623px;
+        top:251px;
+        transform: scale(1,1);
+      }
+
+      .a1{
+        position: absolute;
+        left: -289px;
+        top:335px;
+        transform: scale(-1,1);
+      }
+
+      .a2{
+        position: absolute;
+        left: -137px;
+        top:309px;
+        transform: scale(-1,1);
+      }
+
+      .a3{
+        position: absolute;
+        left: 56px;
+        top:309px;
+        transform: scale(1,1);
+      }
+
+      .a4{
+        position: absolute;
+        left: 185px;
+        top:225px;
+        transform: scale(1,-1);
+      }
+
+      .a5{
+        position: absolute;
+        left: 285px;
+        top:380px;
+        transform: scale(1,1);
+      }
+
+      .a6{
+        position: absolute;
+        left: 383px;
+        top:380px;
+        transform: scale(1,1);
+      }
+
+      .a7{
+        position: absolute;
+        left: 235px;
+        top:362px;
+        transform: scale(-1,1);
+      }
+
+      .a8{
+        position: absolute;
+        left: 506px;
+        top:309px;
+        transform: scale(1,1);
+      }
+
+      .a9{
+        position: absolute;
+        left: 417px;
+        top:240px;
+        transform: scale(-1,-1);
+      }
+
+      .a9{
+        position: absolute;
+        left: 417px;
+        top:240px;
+        transform: scale(-1,-1);
+      }
+
+      .dot{
+        position: absolute;
+        left: -55px;
+        top:590px;
+        transform: scale(1,1);
+      }
+
+      .comma{
+        position: absolute;
+        left: -210px;
+        top:590px;
+        transform: scale(-1,1);
+      }
+
+      .question{
+        position: absolute;
+        left: -27px;
+        top:453px;
+        transform: scale(1,1);
+      }
+
+      .exclamation{
+        position: absolute;
+        left: 40px;
+        top:453px;
+        transform: scale(1,1);
+      }
+      
+      .leftquotation{
+        position: absolute;
+        left: 90px;
+        top:453px;
+        transform: scale(1,1);
+      }
+
