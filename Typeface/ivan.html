@@ -1,0 +1,494 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+ <style type="text/css">
+    body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #353535;
+      }
+     
+      .opacity{
+        opacity: 0;
+        animation: blink 1s infinite;
+      }
+
+      @keyframes blink{
+        0%   {opacity: 0}
+        45%  {opacity: 1}
+        50%  {opacity: 0}
+        55%  {opacity: 1}
+       
+        75% {opacity: 0}
+        80% {opacity: 1}
+        85% {opacity: 1}
+        100% {opacity: 1}
+      }
+
+      .containera{
+        position: absolute;
+        left: -180px;
+        width: auto;
+        height: auto;
+  
+      }
+      
+      .container{
+        position: absolute;
+         margin: 0 auto;
+  
+      }
+
+      .containerc1{
+        position: absolute;
+        left: -155px;
+      }
+      
+      .containerc2{
+        position: absolute;
+        left: -90px;
+    
+      }
+
+      .a{
+        position: absolute;
+        left: 0px;
+       
+      }
+
+      .va{
+        position: absolute;
+        left: 0px;
+      }
+
+      .ga{
+        position: absolute;
+        left: 0px;      
+      }
+
+      .bga{
+        position: absolute;
+        left: 0px;
+        display: none;
+      }
+
+      
+
+      .c1{
+        position: absolute;
+        left: 185px;
+      }
+
+      .c2{
+        position: absolute;
+        left: 185px;
+      }
+
+      .vc1{
+        position: absolute;
+        left: 185px;
+      }
+
+      .vc2{
+        position: absolute;
+        left: 185px;
+      }
+
+      .gc1{
+        position: absolute;
+        left: 185px;
+        filter: blur(3.5px);
+      }
+
+      .gc2{
+        position: absolute;
+        left: 185px;
+        filter: blur(3.5px);
+      }
+
+      .bgc1{
+        position: absolute;
+        left: 185px;
+        filter: blur(30.5px);
+      }
+
+      .bgc2{
+        position: absolute;
+        left: 185px;
+        filter: blur(30.5px);
+      }
+
+      .blur{
+        filter: blur(3.5px);
+        animation: blink 1s;
+      }
+
+      .blur2{
+        filter: blur(30.5px);
+        animation: blink 1s;
+      }
+
+ </style>
+    
+  </head>
+  <body>
+
+   <div class="container">
+
+   <div class="containera">
+      <div class="ga blur">
+      <canvas id="ga" width="215" height="300"></canvas>
+      </div>
+
+      <div class="bga blur2">
+      <canvas id="bga" width="215" height="300"></canvas>
+      </div>
+      
+      <div class="a">
+      <canvas id="a" width="215" height="300"></canvas>
+      </div>
+
+      <div class="va opacity">
+      <canvas id="va" width="215" height="300"></canvas>
+      </div>
+   </div>
+
+
+  <div class="containerc1">
+      <div class="gc1">
+      <canvas id="gc1" width="310" height="200"></canvas>
+      </div>
+
+      <div class="bgc1">
+      <canvas id="bc1" width="310" height="200"></canvas>
+      </div>
+      
+      
+      <div class="vc1 ">
+      <canvas id="vc1" width="310" height="200"></canvas>
+      </div>
+
+      <div class="c1">
+      <canvas id="c1" width="310" height="200"></canvas>
+      </div>
+  </div>
+
+
+  <div class="containerc2">
+      <div class="gc2 ">
+      <canvas id="gc2" width="210" height="200"></canvas>
+      </div>
+
+      <div class="bgc2">
+      <canvas id="bc2" width="210" height="200"></canvas>
+      </div>
+      
+      
+
+     <div class="vc2 ">
+     <canvas id="vc2" width="210" height="200"></canvas>
+     </div>
+    
+    <div class="c2">
+      <canvas id="c2" width="210" height="200"></canvas>
+      </div>
+  </div>
+
+  </div>
+
+
+
+
+ 
+  </body>
+
+
+  <script src="hotkeys/jquery-1.7.1.js"></script>
+  <script src="hotkeys/jquery.hotkeys.js"></script>
+
+
+<script type="text/javascript">
+  ///////////////////////////////////////////////a
+      var canvas = document.getElementById('a');
+      var context = canvas.getContext('2d');
+
+     context.beginPath();
+
+      context.moveTo(138, 225);
+      
+      context.lineTo(138, 134); 
+
+      context.bezierCurveTo(138, 132, 142, 132, 144, 134);
+
+
+      context.lineWidth = 5;
+      context.strokeStyle = '#fde0de';
+      context.stroke();
+
+///////////////////////////////////////////////a
+      var canvas = document.getElementById('va');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 225);
+      
+      context.lineTo(138, 134); 
+
+      context.bezierCurveTo(138, 132, 142, 132, 144, 134);
+
+
+      context.lineWidth = 5;
+      context.strokeStyle = '#7e7e7e';
+      context.stroke();
+
+///////////////////////////////////////////////a
+      var canvas = document.getElementById('ga');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+     context.beginPath();
+
+      context.moveTo(138, 225);
+      
+      context.lineTo(138, 134); 
+
+      context.bezierCurveTo(138, 132, 142, 132, 144, 134);
+
+
+      context.lineWidth = 7;
+      context.strokeStyle = '#fd1b21';
+      context.stroke();
+
+///////////////////////////////////////////////a
+      var canvas = document.getElementById('bga');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+     context.beginPath();
+
+      context.moveTo(138, 225);
+      
+      context.lineTo(138, 134); 
+
+      context.bezierCurveTo(138, 132, 142, 132, 144, 134);
+
+      context.lineWidth = 13;
+      context.strokeStyle = '#fd1b21';
+      context.stroke();
+
+///////////////////////////////////////////////c
+ 
+      var canvas = document.getElementById('c1');
+      var context = canvas.getContext('2d');
+
+       context.beginPath();
+
+
+      context.moveTo(142, 103);
+
+      context.lineTo(142, 158);
+
+       context.bezierCurveTo(142, 165,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 132); 
+
+      context.bezierCurveTo(206, 128, 203, 103, 235, 106);
+
+      context.bezierCurveTo(251, 111,251, 120, 251, 132);  
+
+      context.lineTo(251, 158);
+
+      context.bezierCurveTo(251, 165,261,165, 260, 155);
+       context.lineWidth = 5;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+///////////////////////////////////////////////c
+ 
+      var canvas = document.getElementById('c2');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(185, 157);
+
+  
+      context.bezierCurveTo(125, 187,120,81, 186, 110);
+       context.lineWidth = 5;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+///////////////////////////////////////////////c
+ 
+      var canvas = document.getElementById('vc1');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+
+      context.moveTo(142, 103);
+
+      context.lineTo(142, 158);
+
+       context.bezierCurveTo(142, 165,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 132); 
+
+      context.bezierCurveTo(206, 128, 203, 103, 235, 106);
+
+      context.bezierCurveTo(251, 111,251, 120, 251, 132);  
+
+      context.lineTo(251, 158);
+
+      context.bezierCurveTo(251, 165,261,165, 260, 155);
+       context.lineWidth = 5;
+      context.strokeStyle = '#7e7e7e';
+      context.stroke();
+
+///////////////////////////////////////////////c
+ 
+      var canvas = document.getElementById('vc2');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(185, 157);
+
+  
+      context.bezierCurveTo(125, 187,120,81, 186, 110);
+       context.lineWidth = 5;
+      context.strokeStyle = '#7e7e7e';
+      context.stroke();
+
+///////////////////////////////////////////////c
+ 
+      var canvas = document.getElementById('gc1');
+      var context = canvas.getContext('2d');
+
+       context.beginPath();
+
+
+      context.moveTo(142, 103);
+
+      context.lineTo(142, 158);
+
+       context.bezierCurveTo(142, 165,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 132); 
+
+      context.bezierCurveTo(206, 128, 203, 103, 235, 106);
+
+      context.bezierCurveTo(251, 111,251, 120, 251, 132);  
+
+      context.lineTo(251, 158);
+
+      context.bezierCurveTo(251, 165,261,165, 260, 155);
+       context.lineWidth = 5;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+///////////////////////////////////////////////c
+ 
+      var canvas = document.getElementById('gc2');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(185, 157);
+
+  
+      context.bezierCurveTo(125, 187,120,81, 186, 110);
+       context.lineWidth = 5;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+///////////////////////////////////////////////c
+ 
+      var canvas = document.getElementById('bgc1');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+
+      context.moveTo(142, 103);
+
+      context.lineTo(142, 158);
+
+       context.bezierCurveTo(142, 165,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 132); 
+
+      context.bezierCurveTo(206, 128, 203, 103, 235, 106);
+
+      context.bezierCurveTo(251, 111,251, 120, 251, 132);  
+
+      context.lineTo(251, 158);
+
+      context.bezierCurveTo(251, 165,261,165, 260, 155);
+       context.lineWidth = 13;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+///////////////////////////////////////////////c
+ 
+      var canvas = document.getElementById('bgac2');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(185, 157);
+
+  
+      context.bezierCurveTo(125, 187,120,81, 186, 110);
+       context.lineWidth = 13;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+
+  
+
+</script>
+  
+  
+</html>      

@@ -3,13 +3,15 @@
         margin: 0px;
         padding: 0px;
         background-size: 1000px;
-        background-color: black;
+        background-color: #353535;
       }
       
       .opacity{
         opacity: 0;
         animation: blink 1s;
       }
+
+
 
       @keyframes blink{
         0%   {opacity: 0.5}
@@ -23,9 +25,27 @@
         85% {opacity: 0}
       }
 
+      @keyframes blink2{
+        0%   {opacity: 0}
+        45%  {opacity: 1}
+        50%  {opacity: 0}
+        55%  {opacity: 1}
+       
+        75% {opacity: 0}
+        80% {opacity: 1}
+        85% {opacity: 1}
+        100% {opacity: 1}
+      }
+
       .a{
         position: absolute;
         left: 0px;
+      }
+      .sa{
+        position: absolute;
+        top: 6px;
+        left: -4px;
+        filter: blur(2.5px);
       }
 
       .va{
@@ -44,7 +64,7 @@
         left: 0px;
         display: none;
       }
-      
+  
 
      
 
@@ -52,6 +72,14 @@
         position: absolute;
         left: -135px;
         transform: scale(-1,1);
+      }
+
+      .sb{
+        position: absolute;
+        left: -139px;
+        top: 6px;
+        transform: scale(-1,1);
+        filter: blur(2.5px);
       }
       
       .vb{
@@ -74,46 +102,146 @@
         display: none;
       }
 
-       .blur{
-        filter: blur(3.5px);
-        animation: blink 1s;
-      }
+   
 
-      .blur2{
-        filter: blur(30.5px);
-        display: initial;
-        animation: blink 1s;
-      }
-  
+    
       .c{
         position: absolute;
         left: 185px;
       }
 
+      .sc{
+        position: absolute;
+        left: 179px;
+        filter: blur(2.5px);
+        top: 6px;
+      }
+      .vc{
+        position: absolute;
+        left: 185px;
+      }
+      .gc{
+        position: absolute;
+        left: 185px;
+      }
+      .bgc{
+        position: absolute;
+        left: 185px;
+        display: none;
+      }
+
+
+      .sd{
+        position: absolute;
+        left: 238px;
+        top: 6px;
+        filter: blur(2.5px);
+      }
       .d{
         position: absolute;
         left: 244px;
       }
+      .vd{
+        position: absolute;
+        left: 244px;
+      }
+      .gd{
+        position: absolute;
+        left: 244px;
+      }
+      .bgd{
+        position: absolute;
+        left: 244px;
+        display: none;
+      }
+
+
+
 
       .e{
         position: absolute;
         left: 345px;
+      }
+      .se{
+        position: absolute;
+        left: 339px;
+        top: 6px;
+        filter: blur(2.5px);
+      }
+      .ve{
+        position: absolute;
+        left: 345px;
+        
+        animation: blink 1s infinite;
+      }
+      .ge{
+        position: absolute;
+        left: 345px;
+         filter: blur(3.5px);
+
+      }
+      .bge{
+        position: absolute;
+        left: 345px;
+        display: none;
       }
 
       .f{
         position: absolute;
         left: 435px;
       }
+      .vf{
+        position: absolute;
+        left: 435px;
+      }
+      .gf{
+        position: absolute;
+        left: 435px;
+      }
+      .bgf{
+        position: absolute;
+        left: 435px;
+        display: none;
+      }
 
       .g{
         position: absolute;
         left: 520px;
+      }
+      .vg{
+        position: absolute;
+        left: 520px;
+      }
+      .gg{
+        position: absolute;
+        left: 520px;
+      }
+      .bgg{
+        position: absolute;
+        left: 520px;
+        display: none;
       }
 
       .h{
         position: absolute;
         left: 380px;
         transform: scale(-1,1);
+      }
+      .vh{
+        position: absolute;
+        left: 380px;
+        transform: scale(-1,1);
+      }
+      .gh{
+        position: absolute;
+        left: 380px;
+        transform: scale(-1,1);
+      }
+      .bgh{
+        position: absolute;
+        left: 380px;
+        transform: scale(-1,1);
+        display: none;
       }
       
       .i{
@@ -345,4 +473,20 @@
         top:453px;
         transform: scale(1,1);
       }
+      
+      .blur{
+        filter: blur(3.5px);
+        animation: blink 1s;
+      }
 
+      .blur2{
+        filter: blur(30.5px);
+        display: initial;
+        animation: blink 1s;
+      }
+
+       .blur3{
+        animation: blink2 1s infinite;
+        filter: blur(30.5px);
+        display: initial;
+      }
