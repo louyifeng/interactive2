@@ -494,6 +494,9 @@
       context.strokeStyle = '#ffa0b3';
       context.stroke();
 
+
+
+
 ///////////////////////////////////////////////f
       var canvas = document.getElementById('f');
       var context = canvas.getContext('2d');
@@ -510,8 +513,84 @@
 
       context.lineTo(165, 132); 
 
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
+      context.stroke();
+///////////////////////////////////////////////f
+      var canvas = document.getElementById('sf');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 198);
+      
+      context.lineTo(138, 132); 
+
+      context.bezierCurveTo(138, 125, 142, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+      context.lineTo(165, 132); 
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = '#1d1d1d';
+      context.stroke();
+///////////////////////////////////////////////f
+      var canvas = document.getElementById('gf');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 198);
+      
+      context.lineTo(138, 132); 
+
+      context.bezierCurveTo(138, 125, 142, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+      context.lineTo(165, 132); 
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
+      context.stroke();
+///////////////////////////////////////////////f
+      var canvas = document.getElementById('vf');
+      var context = canvas.getContext('2d');
+
+     context.beginPath();
+
+      context.moveTo(138, 198);
+      
+      context.lineTo(138, 132); 
+
+      context.bezierCurveTo(138, 125, 142, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+      context.lineTo(165, 132); 
+
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = '#acaba6';
+      context.stroke();
+///////////////////////////////////////////////f
+      var canvas = document.getElementById('bgf');
+      var context = canvas.getContext('2d');
+
+     context.beginPath();
+
+      context.moveTo(138, 198);
+      
+      context.lineTo(138, 132); 
+
+      context.bezierCurveTo(138, 125, 142, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+      context.lineTo(165, 132); 
+
+      context.lineWidth = 13;
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////g
@@ -532,8 +611,92 @@
 
       context.bezierCurveTo(196, 208,136, 202, 137, 167);
 
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
+      context.stroke();
+///////////////////////////////////////////////g
+      var canvas = document.getElementById('sg');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(188, 153);
+
+      context.bezierCurveTo(188, 158, 174, 162, 167, 162);
+
+      context.bezierCurveTo(124, 158, 133, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+      context.lineTo(196, 167); 
+
+      context.bezierCurveTo(196, 208,136, 202, 137, 167);
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = '#1d1d1d';
+      context.stroke();
+///////////////////////////////////////////////g
+      var canvas = document.getElementById('vg');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(188, 153);
+
+      context.bezierCurveTo(188, 158, 174, 162, 167, 162);
+
+      context.bezierCurveTo(124, 158, 133, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+      context.lineTo(196, 167); 
+
+      context.bezierCurveTo(196, 208,136, 202, 137, 167);
+
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = '#acaba6';
+      context.stroke();
+///////////////////////////////////////////////g
+      var canvas = document.getElementById('gg');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(188, 153);
+
+      context.bezierCurveTo(188, 158, 174, 162, 167, 162);
+
+      context.bezierCurveTo(124, 158, 133, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+      context.lineTo(196, 167); 
+
+      context.bezierCurveTo(196, 208,136, 202, 137, 167);
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
+      context.stroke();
+///////////////////////////////////////////////g
+      var canvas = document.getElementById('bgg');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(188, 153);
+
+      context.bezierCurveTo(188, 158, 174, 162, 167, 162);
+
+      context.bezierCurveTo(124, 158, 133, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+      context.lineTo(196, 167); 
+
+      context.bezierCurveTo(196, 208,136, 202, 137, 167);
+
+      context.lineWidth = 13;
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////h
@@ -556,9 +719,109 @@
       context.bezierCurveTo(196, 165,206,165, 206, 158);
 
       context.lineTo(206, 70); 
-      context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
       context.stroke();
+///////////////////////////////////////////////h
+      var canvas = document.getElementById('sh');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(142, 153);
+
+      context.bezierCurveTo(138, 166,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 70); 
+      context.lineWidth = 5;
+      context.strokeStyle = '#1d1d1d';
+      context.stroke();
+///////////////////////////////////////////////h
+      var canvas = document.getElementById('vh');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(142, 153);
+
+      context.bezierCurveTo(138, 166,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 70); 
+      context.lineWidth = 5;
+      context.strokeStyle = '#acaba6';
+      context.stroke();
+///////////////////////////////////////////////h
+      var canvas = document.getElementById('gh');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(142, 153);
+
+      context.bezierCurveTo(138, 166,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 70); 
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
+      context.stroke();
+///////////////////////////////////////////////h
+      var canvas = document.getElementById('bgh');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(142, 153);
+
+      context.bezierCurveTo(138, 166,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 70); 
+      context.lineWidth = 15;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+
+
+
+
+
+
+
 
 ///////////////////////////////////////////////i
       var canvas = document.getElementById('i');
@@ -573,9 +836,75 @@
       context.bezierCurveTo(138, 132, 142, 132, 144, 134);
 
 
-      context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
       context.stroke();
+///////////////////////////////////////////////i
+      var canvas = document.getElementById('si');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 193);
+      
+      context.lineTo(138, 134); 
+
+      context.bezierCurveTo(138, 132, 142, 132, 144, 134);
+
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = '#1d1d1d';
+      context.stroke();
+///////////////////////////////////////////////i
+      var canvas = document.getElementById('vi');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 193);
+      
+      context.lineTo(138, 134); 
+
+      context.bezierCurveTo(138, 132, 142, 132, 144, 134);
+
+
+      context.lineWidth = 5;
+      context.strokeStyle = '#acaba6';
+      context.stroke();
+///////////////////////////////////////////////i
+      var canvas = document.getElementById('gi');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 193);
+      
+      context.lineTo(138, 134); 
+
+      context.bezierCurveTo(138, 132, 142, 132, 144, 134);
+
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
+      context.stroke();
+///////////////////////////////////////////////i
+      var canvas = document.getElementById('bgi');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 193);
+      
+      context.lineTo(138, 134); 
+
+      context.bezierCurveTo(138, 132, 142, 132, 144, 134);
+
+
+      context.lineWidth = 13;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+
 
 ///////////////////////////////////////////////j
       var canvas = document.getElementById('j');
@@ -593,9 +922,90 @@
 
     
 
-      context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
       context.stroke();
+///////////////////////////////////////////////j
+      var canvas = document.getElementById('sj');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 198);
+      
+      context.lineTo(138, 122); 
+
+      context.bezierCurveTo(139, 115, 142, 104, 158, 102.5);
+
+      context.bezierCurveTo(163, 103,176, 104, 178, 122);
+
+    
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = '#1d1d1d';
+      context.stroke();
+///////////////////////////////////////////////j
+      var canvas = document.getElementById('vj');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 198);
+      
+      context.lineTo(138, 122); 
+
+      context.bezierCurveTo(139, 115, 142, 104, 158, 102.5);
+
+      context.bezierCurveTo(163, 103,176, 104, 178, 122);
+
+    
+
+      context.lineWidth = 5;
+      context.strokeStyle = '#acaba6';
+      context.stroke();
+///////////////////////////////////////////////j
+      var canvas = document.getElementById('gj');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 198);
+      
+      context.lineTo(138, 122); 
+
+      context.bezierCurveTo(139, 115, 142, 104, 158, 102.5);
+
+      context.bezierCurveTo(163, 103,176, 104, 178, 122);
+
+    
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
+      context.stroke();
+///////////////////////////////////////////////j
+      var canvas = document.getElementById('bgj');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 198);
+      
+      context.lineTo(138, 122); 
+
+      context.bezierCurveTo(139, 115, 142, 104, 158, 102.5);
+
+      context.bezierCurveTo(163, 103,176, 104, 178, 122);
+
+    
+
+      context.lineWidth = 13;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+
+
+
+
 
 ///////////////////////////////////////////////k
  var canvas = document.getElementById('k');
@@ -618,9 +1028,107 @@
 
       context.lineTo(206, 70); 
 
-      context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
       context.stroke();
+///////////////////////////////////////////////k
+ var canvas = document.getElementById('sk');
+      var context = canvas.getContext('2d');
+
+     context.beginPath();
+
+
+      context.moveTo(158, 167);
+      
+      context.bezierCurveTo(158, 165,156,143, 178, 143);
+  
+      context.bezierCurveTo(152, 148,148,102, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 70); 
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = '#1d1d1d';
+      context.stroke();
+///////////////////////////////////////////////k
+ var canvas = document.getElementById('vk');
+      var context = canvas.getContext('2d');
+
+     context.beginPath();
+
+
+      context.moveTo(158, 167);
+      
+      context.bezierCurveTo(158, 165,156,143, 178, 143);
+  
+      context.bezierCurveTo(152, 148,148,102, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 70); 
+
+      context.lineWidth = 5;
+      context.strokeStyle = '#acaba6';
+      context.stroke();
+///////////////////////////////////////////////k
+ var canvas = document.getElementById('gk');
+      var context = canvas.getContext('2d');
+
+     context.beginPath();
+
+
+      context.moveTo(158, 167);
+      
+      context.bezierCurveTo(158, 165,156,143, 178, 143);
+  
+      context.bezierCurveTo(152, 148,148,102, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 70); 
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
+      context.stroke();
+///////////////////////////////////////////////k
+ var canvas = document.getElementById('bgk');
+      var context = canvas.getContext('2d');
+
+     context.beginPath();
+
+
+      context.moveTo(158, 167);
+      
+      context.bezierCurveTo(158, 165,156,143, 178, 143);
+  
+      context.bezierCurveTo(152, 148,148,102, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 70); 
+
+      context.lineWidth = 13;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+
 
 ///////////////////////////////////////////////l
       var canvas = document.getElementById('l');
@@ -638,9 +1146,88 @@
 
     
 
-      context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
       context.stroke();
+///////////////////////////////////////////////l
+      var canvas = document.getElementById('sl');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 198);
+      
+      context.lineTo(138, 122); 
+
+      context.bezierCurveTo(139, 115, 142, 104, 158, 102.5);
+
+      context.bezierCurveTo(163, 103,176, 104, 178, 122);
+
+    
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = '#1d1d1d';
+      context.stroke();
+///////////////////////////////////////////////l
+      var canvas = document.getElementById('vl');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 198);
+      
+      context.lineTo(138, 122); 
+
+      context.bezierCurveTo(139, 115, 142, 104, 158, 102.5);
+
+      context.bezierCurveTo(163, 103,176, 104, 178, 122);
+
+    
+
+      context.lineWidth = 5;
+      context.strokeStyle = '#acaba6';
+      context.stroke();
+///////////////////////////////////////////////l
+      var canvas = document.getElementById('gl');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 198);
+      
+      context.lineTo(138, 122); 
+
+      context.bezierCurveTo(139, 115, 142, 104, 158, 102.5);
+
+      context.bezierCurveTo(163, 103,176, 104, 178, 122);
+
+    
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
+      context.stroke();
+///////////////////////////////////////////////l
+      var canvas = document.getElementById('bgl');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(138, 198);
+      
+      context.lineTo(138, 122); 
+
+      context.bezierCurveTo(139, 115, 142, 104, 158, 102.5);
+
+      context.bezierCurveTo(163, 103,176, 104, 178, 122);
+
+    
+
+      context.lineWidth = 13;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+
+
 
 ///////////////////////////////////////////////m
       var canvas = document.getElementById('m');
@@ -677,9 +1264,166 @@
 
 
 
-      context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
       context.stroke();
+
+///////////////////////////////////////////////m
+      var canvas = document.getElementById('sm');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+
+      context.moveTo(142, 103);
+
+      context.lineTo(142, 158);
+
+       context.bezierCurveTo(142, 165,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 132); 
+
+      context.bezierCurveTo(206, 128, 203, 103, 235, 106);
+
+      context.bezierCurveTo(251, 111,251, 120, 251, 132);  
+
+      context.lineTo(251, 158);
+
+      context.bezierCurveTo(251, 165,261,165, 260, 155);
+
+
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = '#1d1d1d';
+      context.stroke();
+///////////////////////////////////////////////m
+      var canvas = document.getElementById('vm');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+
+      context.moveTo(142, 103);
+
+      context.lineTo(142, 158);
+
+       context.bezierCurveTo(142, 165,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 132); 
+
+      context.bezierCurveTo(206, 128, 203, 103, 235, 106);
+
+      context.bezierCurveTo(251, 111,251, 120, 251, 132);  
+
+      context.lineTo(251, 158);
+
+      context.bezierCurveTo(251, 165,261,165, 260, 155);
+
+
+
+      context.lineWidth = 5;
+      context.strokeStyle = '#acaba6';
+      context.stroke();
+///////////////////////////////////////////////m
+      var canvas = document.getElementById('gm');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+
+      context.moveTo(142, 103);
+
+      context.lineTo(142, 158);
+
+       context.bezierCurveTo(142, 165,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 132); 
+
+      context.bezierCurveTo(206, 128, 203, 103, 235, 106);
+
+      context.bezierCurveTo(251, 111,251, 120, 251, 132);  
+
+      context.lineTo(251, 158);
+
+      context.bezierCurveTo(251, 165,261,165, 260, 155);
+
+
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
+      context.stroke();
+///////////////////////////////////////////////m
+      var canvas = document.getElementById('bgm');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+
+      context.moveTo(142, 103);
+
+      context.lineTo(142, 158);
+
+       context.bezierCurveTo(142, 165,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 132); 
+
+      context.bezierCurveTo(206, 128, 203, 103, 235, 106);
+
+      context.bezierCurveTo(251, 111,251, 120, 251, 132);  
+
+      context.lineTo(251, 158);
+
+      context.bezierCurveTo(251, 165,261,165, 260, 155);
+
+
+
+      context.lineWidth = 13;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+
+
+
 
 ///////////////////////////////////////////////n
       var canvas = document.getElementById('n');
@@ -703,8 +1447,108 @@
 
       context.lineTo(206, 102); 
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
+///////////////////////////////////////////////n
+      var canvas = document.getElementById('sn');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(142, 153);
+
+     
+      context.bezierCurveTo(138, 166,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 102); 
+      context.lineWidth = 4.5;
+      context.strokeStyle = '#1d1d1d';
+      context.stroke();
+///////////////////////////////////////////////n
+      var canvas = document.getElementById('gn');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(142, 153);
+
+     
+      context.bezierCurveTo(138, 166,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 102); 
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
+      context.stroke();
+///////////////////////////////////////////////n
+      var canvas = document.getElementById('vn');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(142, 153);
+
+     
+      context.bezierCurveTo(138, 166,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 102); 
+      context.lineWidth = 5;
+      context.strokeStyle = '#acaba6';
+      context.stroke();
+///////////////////////////////////////////////n
+      var canvas = document.getElementById('bgn');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(142, 153);
+
+     
+      context.bezierCurveTo(138, 166,151,165, 151, 158);
+
+      context.lineTo(151, 132);
+  
+      context.bezierCurveTo(151, 128,148,103, 180, 106);
+
+      context.bezierCurveTo(196, 111,196, 120, 196, 132);
+
+      context.lineTo(196, 158); 
+
+      context.bezierCurveTo(196, 165,206,165, 206, 158);
+
+      context.lineTo(206, 102); 
+      context.lineWidth = 13;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+
+
+
 
 ///////////////////////////////////////////////o
       var canvas = document.getElementById('o');
@@ -721,9 +1565,85 @@
       context.bezierCurveTo(190, 105,196, 122, 196, 132);
 
 
-      context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
       context.stroke();
+///////////////////////////////////////////////o
+      var canvas = document.getElementById('so');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(195, 140);
+
+      context.bezierCurveTo(193, 156, 174, 162, 167, 162);
+
+      context.bezierCurveTo(124, 158, 133, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = '#1d1d1d';
+      context.stroke();
+///////////////////////////////////////////////o
+      var canvas = document.getElementById('vo');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(195, 140);
+
+      context.bezierCurveTo(193, 156, 174, 162, 167, 162);
+
+      context.bezierCurveTo(124, 158, 133, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+
+      context.lineWidth = 5;
+      context.strokeStyle = '#acaba6';
+      context.stroke();
+///////////////////////////////////////////////o
+      var canvas = document.getElementById('go');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(195, 140);
+
+      context.bezierCurveTo(193, 156, 174, 162, 167, 162);
+
+      context.bezierCurveTo(124, 158, 133, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+
+      context.lineWidth = 4.5;
+      context.strokeStyle = 'white';
+      context.stroke();
+///////////////////////////////////////////////o
+      var canvas = document.getElementById('bgo');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+
+      context.moveTo(195, 140);
+
+      context.bezierCurveTo(193, 156, 174, 162, 167, 162);
+
+      context.bezierCurveTo(124, 158, 133, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+
+      context.lineWidth = 13;
+      context.strokeStyle = 'white';
+      context.stroke();
+
+
+
+
 
 ///////////////////////////////////////////////p
       
@@ -745,7 +1665,7 @@
       context.lineTo(206, 70); 
 
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////q
@@ -768,7 +1688,7 @@
       context.lineTo(206, 70); 
 
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////n
@@ -792,7 +1712,7 @@
       context.lineTo(196, 128); 
 
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////s
@@ -811,7 +1731,7 @@
       context.bezierCurveTo(134, 161,133,148, 133, 148);
     
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////t
@@ -838,7 +1758,7 @@
       context.bezierCurveTo(161, 164,191,166, 191, 144);
     
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////u
@@ -863,7 +1783,7 @@
 
       context.lineTo(206, 102); 
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////v
@@ -888,7 +1808,7 @@
 
       context.lineTo(206, 153); 
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////w
@@ -920,7 +1840,7 @@
 
       context.bezierCurveTo(251, 165,263,165, 260, 154);
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////x
@@ -950,7 +1870,7 @@
   
  
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////y
@@ -977,7 +1897,7 @@
       context.bezierCurveTo(206,66,145,66,146,103);
 
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////z
@@ -998,7 +1918,7 @@
       context.lineTo(197, 162);
       
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////a1
@@ -1015,7 +1935,7 @@
 
 
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////a2
@@ -1034,7 +1954,7 @@
       context.bezierCurveTo(209.04, 251.16,207.48,230.88, 207.48, 230.88);
     
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////a3
@@ -1055,7 +1975,7 @@
       context.bezierCurveTo(209.04, 251.16,207.48,230.88, 207.48, 230.88);
     
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////a4
@@ -1082,7 +2002,7 @@
     
 
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////a5
@@ -1102,7 +2022,7 @@
 
 
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////a5
@@ -1122,7 +2042,7 @@
       context.bezierCurveTo(206,126,180,110,159,125);
 
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////a7
@@ -1140,7 +2060,7 @@
       context.bezierCurveTo(190, 105,196, 122, 196, 132);
 
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////a8
@@ -1164,7 +2084,7 @@
       context.bezierCurveTo(206.48, 212.88, 216.88, 209.36, 217.88, 208.36);
     
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////a9
@@ -1184,7 +2104,7 @@
       context.bezierCurveTo(206,126,180,110,159,125);
     
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////dot
@@ -1200,7 +2120,7 @@
       context.bezierCurveTo(208,107,211,115,206,113);
       
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////comma
@@ -1216,7 +2136,7 @@
       
       
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////question
@@ -1238,7 +2158,7 @@
 
       
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////exclamation
@@ -1256,7 +2176,7 @@
 
       
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 ///////////////////////////////////////////////leftquotation
@@ -1281,7 +2201,7 @@
       context.lineTo(290, 165);
     
       context.lineWidth = 5;
-      context.strokeStyle = 'blue';
+      context.strokeStyle = 'white';
       context.stroke();
 
 
@@ -1331,12 +2251,84 @@ function domo(){
                 jQuery(document).bind('keydown.e',function (evt){jQuery('.bge').removeClass('blur3'); return false; });
                 jQuery(document).bind('keyup.e',function (evt){jQuery('.bge').addClass('blur3'); return false; });
 
-                 jQuery(document).bind('keydown.d',function (evt){jQuery('#vd').addClass('opacity'); return false; });
-                jQuery(document).bind('keyup.d',function (evt){jQuery('#vd').removeClass('opacity'); return false; });
-                jQuery(document).bind('keydown.d',function (evt){jQuery('.gd').addClass('blur'); return false; });
-                jQuery(document).bind('keyup.d',function (evt){jQuery('.gd').removeClass('blur'); return false; });
-                jQuery(document).bind('keydown.d',function (evt){jQuery('.bgd').addClass('blur2'); return false; });
-                jQuery(document).bind('keyup.d',function (evt){jQuery('.bgd').removeClass('blur2'); return false; });
+                jQuery(document).bind('keydown.f',function (evt){jQuery('#vf').addClass('opacity'); return false; });
+                jQuery(document).bind('keyup.f',function (evt){jQuery('#vf').removeClass('opacity'); return false; });
+                jQuery(document).bind('keydown.f',function (evt){jQuery('.gf').addClass('blur'); return false; });
+                jQuery(document).bind('keyup.f',function (evt){jQuery('.gf').removeClass('blur'); return false; });
+                jQuery(document).bind('keydown.f',function (evt){jQuery('.bgf').addClass('blur2'); return false; });
+                jQuery(document).bind('keyup.f',function (evt){jQuery('.bgf').removeClass('blur2'); return false; });
+
+                jQuery(document).bind('keydown.g',function (evt){jQuery('#vg').addClass('opacity'); return false; });
+                jQuery(document).bind('keyup.g',function (evt){jQuery('#vg').removeClass('opacity'); return false; });
+                jQuery(document).bind('keydown.g',function (evt){jQuery('.gg').addClass('blur'); return false; });
+                jQuery(document).bind('keyup.g',function (evt){jQuery('.gg').removeClass('blur'); return false; });
+                jQuery(document).bind('keydown.g',function (evt){jQuery('.bgg').addClass('blur2'); return false; });
+                jQuery(document).bind('keyup.g',function (evt){jQuery('.bgg').removeClass('blur2'); return false; });
+
+              jQuery(document).bind('keydown.h',function (evt){jQuery('#vh').addClass('opacity'); return false; });
+                jQuery(document).bind('keyup.h',function (evt){jQuery('#vh').removeClass('opacity'); return false; });
+              jQuery(document).bind('keydown.h',function (evt){jQuery('.gh').addClass('blur'); return false; });
+                jQuery(document).bind('keyup.h',function (evt){jQuery('.gh').removeClass('blur'); return false; });
+              jQuery(document).bind('keydown.h',function (evt){jQuery('.bgh').addClass('blur2'); return false; });
+                jQuery(document).bind('keyup.h',function (evt){jQuery('.bgh').removeClass('blur2'); return false; });
+
+              jQuery(document).bind('keydown.i',function (evt){jQuery('#vi').addClass('opacity'); return false; });
+                jQuery(document).bind('keyup.i',function (evt){jQuery('#vi').removeClass('opacity'); return false; });
+              jQuery(document).bind('keydown.i',function (evt){jQuery('.gi').addClass('blur'); return false; });
+                jQuery(document).bind('keyup.i',function (evt){jQuery('.gi').removeClass('blur'); return false; });
+              jQuery(document).bind('keydown.i',function (evt){jQuery('.bgi').addClass('blur2'); return false; });
+                jQuery(document).bind('keyup.i',function (evt){jQuery('.bgi').removeClass('blur2'); return false; });
+
+              jQuery(document).bind('keydown.j',function (evt){jQuery('#vj').addClass('opacity'); return false; });
+                jQuery(document).bind('keyup.j',function (evt){jQuery('#vj').removeClass('opacity'); return false; });
+              jQuery(document).bind('keydown.j',function (evt){jQuery('.gj').addClass('blur'); return false; });
+                jQuery(document).bind('keyup.j',function (evt){jQuery('.gj').removeClass('blur'); return false; });
+             jQuery(document).bind('keydown.j',function (evt){jQuery('.bgj').addClass('blur2'); return false; });
+               jQuery(document).bind('keyup.j',function (evt){jQuery('.bgj').removeClass('blur2'); return false; });
+
+              jQuery(document).bind('keydown.k',function (evt){jQuery('#vk').addClass('opacity'); return false; });
+                jQuery(document).bind('keyup.k',function (evt){jQuery('#vk').removeClass('opacity'); return false; });
+              jQuery(document).bind('keydown.k',function (evt){jQuery('.gk').addClass('blur'); return false; });
+                jQuery(document).bind('keyup.k',function (evt){jQuery('.gk').removeClass('blur'); return false; });
+             jQuery(document).bind('keydown.k',function (evt){jQuery('.bgk').addClass('blur2'); return false; });
+               jQuery(document).bind('keyup.k',function (evt){jQuery('.bgk').removeClass('blur2'); return false; });
+
+              jQuery(document).bind('keydown.l',function (evt){jQuery('#vl').addClass('opacity'); return false; });
+                jQuery(document).bind('keyup.l',function (evt){jQuery('#vl').removeClass('opacity'); return false; });
+              jQuery(document).bind('keydown.l',function (evt){jQuery('.gl').addClass('blur'); return false; });
+                jQuery(document).bind('keyup.l',function (evt){jQuery('.gl').removeClass('blur'); return false; });
+             jQuery(document).bind('keydown.l',function (evt){jQuery('.bgl').addClass('blur2'); return false; });
+               jQuery(document).bind('keyup.l',function (evt){jQuery('.bgl').removeClass('blur2'); return false; });
+
+              jQuery(document).bind('keydown.m',function (evt){jQuery('#vm').addClass('opacity'); return false; });
+                jQuery(document).bind('keyup.m',function (evt){jQuery('#vm').removeClass('opacity'); return false; });
+              jQuery(document).bind('keydown.m',function (evt){jQuery('.gm').addClass('blur'); return false; });
+                jQuery(document).bind('keyup.m',function (evt){jQuery('.gm').removeClass('blur'); return false; });
+             jQuery(document).bind('keydown.m',function (evt){jQuery('.bgm').addClass('blur2'); return false; });
+               jQuery(document).bind('keyup.m',function (evt){jQuery('.bgm').removeClass('blur2'); return false; });
+
+              jQuery(document).bind('keydown.n',function (evt){jQuery('#vn').addClass('opacity'); return false; });
+                jQuery(document).bind('keyup.n',function (evt){jQuery('#vn').removeClass('opacity'); return false; });
+              jQuery(document).bind('keydown.n',function (evt){jQuery('.gn').addClass('blur'); return false; });
+                jQuery(document).bind('keyup.n',function (evt){jQuery('.gn').removeClass('blur'); return false; });
+             jQuery(document).bind('keydown.n',function (evt){jQuery('.bgn').addClass('blur2'); return false; });
+               jQuery(document).bind('keyup.n',function (evt){jQuery('.bgn').removeClass('blur2'); return false; });
+
+              jQuery(document).bind('keydown.o',function (evt){jQuery('#vo').addClass('opacity'); return false; });
+                jQuery(document).bind('keyup.o',function (evt){jQuery('#vo').removeClass('opacity'); return false; });
+              jQuery(document).bind('keydown.o',function (evt){jQuery('.go').addClass('blur'); return false; });
+                jQuery(document).bind('keyup.o',function (evt){jQuery('.go').removeClass('blur'); return false; });
+             jQuery(document).bind('keydown.o',function (evt){jQuery('.bgo').addClass('blur2'); return false; });
+               jQuery(document).bind('keyup.o',function (evt){jQuery('.bgo').removeClass('blur2'); return false; });
+
+              jQuery(document).bind('keydown.p',function (evt){jQuery('#vp').addClass('opacity'); return false; });
+                jQuery(document).bind('keyup.p',function (evt){jQuery('#vp').removeClass('opacity'); return false; });
+              jQuery(document).bind('keydown.p',function (evt){jQuery('.gp').addClass('blur'); return false; });
+                jQuery(document).bind('keyup.p',function (evt){jQuery('.gp').removeClass('blur'); return false; });
+             jQuery(document).bind('keydown.p',function (evt){jQuery('.bgp').addClass('blur2'); return false; });
+               jQuery(document).bind('keyup.p',function (evt){jQuery('.bgp').removeClass('blur2'); return false; });
+
+
                
  }
             

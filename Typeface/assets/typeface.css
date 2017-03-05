@@ -2,15 +2,17 @@
       body {
         margin: 0px;
         padding: 0px;
-        background-size: 1000px;
-        background-color: #353535;
+        width: auto;
+        height: auto;
+
+        background: #454545; /* Old Browsers */
+background: -webkit-linear-gradient(top,#454545,#191919); /*Safari 5.1-6*/
+background: -o-linear-gradient(top,#454545,#191919); /*Opera 11.1-12*/
+background: -moz-linear-gradient(top,#454545,#191919); /*Fx 3.6-15*/
+background: linear-gradient(to bottom, #454545, #191919); /*Standard*/
       }
       
-      .opacity{
-        opacity: 0;
-        animation: blink 1s;
-      }
-
+      
 
 
       @keyframes blink{
@@ -131,6 +133,8 @@
       }
 
 
+
+
       .sd{
         position: absolute;
         left: 238px;
@@ -177,7 +181,7 @@
       .ge{
         position: absolute;
         left: 345px;
-         filter: blur(3.5px);
+        filter: blur(3.5px);
 
       }
       .bge{
@@ -185,7 +189,16 @@
         left: 345px;
         display: none;
       }
+      
 
+
+
+      .sf{
+        position: absolute;
+        left: 429px;
+        top: 6px;
+        filter: blur(2.5px);
+      }
       .f{
         position: absolute;
         left: 435px;
@@ -204,6 +217,15 @@
         display: none;
       }
 
+
+
+
+      .sg{
+        position: absolute;
+        left: 514px;
+        top: 6px;
+        filter: blur(2.5px);
+      }
       .g{
         position: absolute;
         left: 520px;
@@ -221,7 +243,17 @@
         left: 520px;
         display: none;
       }
+      
 
+
+
+      .sh{
+        position: absolute;
+        left: 374px;
+        top: 6px;
+        transform: scale(-1,1);
+        filter: blur(2.5px);
+      }
       .h{
         position: absolute;
         left: 380px;
@@ -244,6 +276,40 @@
         display: none;
       }
       
+
+
+
+      .si{
+     
+        position: absolute;
+        left: 409px;
+        top:-21px;
+        transform: scale(-1,1);
+        filter: blur(2.5px);
+      }
+
+      .vi{
+        position: absolute;
+        left: 415px;
+        top:-27px;
+        transform: scale(-1,1);
+      }
+
+      .gi{
+        position: absolute;
+        left: 415px;
+        top:-27px;
+        transform: scale(-1,1);
+      }
+
+      .bgi{
+        position: absolute;
+        left: 415px;
+        top:-27px;
+        transform: scale(-1,1);
+        display: none;
+      }
+
       .i{
         position: absolute;
         left: 415px;
@@ -251,12 +317,44 @@
         transform: scale(-1,1);
       }
 
+
+
+
       .j{
         position: absolute;
         left: 476px;
         top:96px;
         transform: scale(-1,-1);
       }
+      .sj{
+        position: absolute;
+        left: 470px;
+        top:102px;
+        transform: scale(-1,-1);
+        filter: blur(2.5px);
+      }
+      .vj{
+        position: absolute;
+        left: 476px;
+        top:96px;
+        transform: scale(-1,-1);
+      }
+      .gj{
+        position: absolute;
+        left: 476px;
+        top:96px;
+        transform: scale(-1,-1);
+      }
+      .bgj{
+        position: absolute;
+        left: 476px;
+        top:96px;
+        transform: scale(-1,-1);
+        display: none;
+      }
+
+
+
 
       .k{
         position: absolute;
@@ -264,6 +362,36 @@
         top:127px;
         transform: scale(-1,1);
       }
+      .sk{
+        position: absolute;
+        left: -234px;
+        top:133px;
+        transform: scale(-1,1);
+        filter: blur(2.5px);
+      }
+      .vk{
+        position: absolute;
+        left: -228px;
+        top:127px;
+        transform: scale(-1,1);
+      }
+      .gk{
+        position: absolute;
+        left: -228px;
+        top:127px;
+        transform: scale(-1,1);
+      }
+      .bgk{
+        position: absolute;
+        left: -228px;
+        top:127px;
+        transform: scale(-1,1);
+        display: none;
+      }
+
+
+
+
 
       .l{
         position: absolute;
@@ -272,12 +400,77 @@
         transform: scale(1,-1);
       }
 
+      .sl{
+        position: absolute;
+        left: 81px;
+        top:197px;
+        transform: scale(1,-1);
+        filter: blur(2.5px);
+      }
+      .vl{
+        position: absolute;
+        left: 87px;
+        top:191px;
+        transform: scale(1,-1);
+      }
+      .gl{
+        position: absolute;
+        left: 87px;
+        top:191px;
+        transform: scale(1,-1);
+      }
+      .bgl{
+        position: absolute;
+        left: 87px;
+        top:191px;
+        transform: scale(1,-1);
+        display: none;
+      }
+
+
+
+
+
+
       .m{
         position: absolute;
         left: 159px;
         top:128px;
         transform: scale(1,1);
       }
+      .sm{
+        position: absolute;
+        left: 153px;
+        top:134px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+       .vm{
+        position: absolute;
+        left: 159px;
+        top:128px;
+        transform: scale(1,1);
+      }
+       .gm{
+        position: absolute;
+        left: 159px;
+        top:128px;
+        transform: scale(1,1);
+      }
+       .bgm{
+        position: absolute;
+        left: 159px;
+        top:128px;
+        transform: scale(1,1);
+        display: none;
+      }
+
+
+
+
+
+
+
 
       .n{
         position: absolute;
@@ -285,6 +478,38 @@
         top:128px;
         transform: scale(-1,1);
       }
+      .sn{
+        position: absolute;
+        left: 80px;
+        top:134px;
+        transform: scale(-1,1);
+        filter: blur(2.5px);
+      }
+      .vn{
+        position: absolute;
+        left: 86px;
+        top:128px;
+        transform: scale(-1,1);
+      }
+      .gn{
+        position: absolute;
+        left: 86px;
+        top:128px;
+        transform: scale(-1,1);
+      }
+      .bgn{
+        position: absolute;
+        left: 86px;
+        top:128px;
+        transform: scale(-1,1);
+        display: none;
+      }
+
+
+
+
+
+
 
       .o{
         position: absolute;
@@ -292,6 +517,37 @@
         top:128px;
         transform: scale(1,1);
       }
+      .so{
+        position: absolute;
+        left: 412px;
+        top:134px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vo{
+        position: absolute;
+        left: 418px;
+        top:128px;
+        transform: scale(1,1);
+      }
+      .go{
+        position: absolute;
+        left: 418px;
+        top:128px;
+        transform: scale(1,1);
+      }
+      .bgo{
+        position: absolute;
+        left: 418px;
+        top:128px;
+        transform: scale(1,1);
+        display: none;
+      }
+
+
+
+
+
 
       .p{
         position: absolute;
@@ -490,3 +746,9 @@
         filter: blur(30.5px);
         display: initial;
       }
+
+      .opacity{
+        opacity: 0;
+        animation: blink 1s;
+      }
+
