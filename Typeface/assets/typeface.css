@@ -176,13 +176,11 @@ background: linear-gradient(to bottom, #454545, #191919); /*Standard*/
         position: absolute;
         left: 345px;
         
-        animation: blink 1s infinite;
       }
       .ge{
         position: absolute;
         left: 345px;
-        filter: blur(3.5px);
-
+      
       }
       .bge{
         position: absolute;
@@ -555,6 +553,35 @@ background: linear-gradient(to bottom, #454545, #191919); /*Standard*/
         transform: scale(-1,-1);
         top: 192px;
       }
+      .sp{
+        position: absolute;
+        left: 272px;
+        transform: scale(-1,-1);
+        top: 198px;
+        filter: blur(2.5px);
+      }
+      .vp{
+        position: absolute;
+        left: 278px;
+        transform: scale(-1,-1);
+        top: 192px;
+      }
+      .gp{
+        position: absolute;
+        left: 278px;
+        transform: scale(-1,-1);
+        top: 192px;
+      }
+      .bgp{
+        position: absolute;
+        left: 278px;
+        transform: scale(-1,-1);
+        top: 192px;
+        display: none;
+      }
+
+
+
 
       .q{
         position: absolute;
@@ -562,6 +589,33 @@ background: linear-gradient(to bottom, #454545, #191919); /*Standard*/
         top:191px;
         transform: scale(1,-1);
       }
+      .sq{
+        position: absolute;
+        left: 581px;
+        top:197px;
+        transform: scale(1,-1);
+        filter: blur(2.5px);
+      }
+      .vq{
+        position: absolute;
+        left: 589px;
+        top:191px;
+        transform: scale(1,-1);
+      }
+      .gq{
+        position: absolute;
+        left: 589px;
+        top:191px;
+        transform: scale(1,-1);
+      }
+      .bgq{
+        position: absolute;
+        left: 589px;
+        top:191px;
+        transform: scale(1,-1);
+        display: none;
+      }
+
 
       .r{
         position: absolute;
@@ -569,6 +623,36 @@ background: linear-gradient(to bottom, #454545, #191919); /*Standard*/
         top:128px;
         transform: scale(1,1);
       }
+      .sr{
+        position: absolute;
+        left: 685px;
+        top:134px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vr{
+        position: absolute;
+        left: 691px;
+        top:128px;
+        transform: scale(1,1);
+      }
+      .gr{
+        position: absolute;
+        left: 691px;
+        top:128px;
+        transform: scale(1,1);
+      }
+      .bgr{
+        position: absolute;
+        left: 691px;
+        top:128px;
+        transform: scale(1,1);
+        display: none;
+      }
+
+
+
+
 
       .s{
         position: absolute;
@@ -576,12 +660,66 @@ background: linear-gradient(to bottom, #454545, #191919); /*Standard*/
         top:131px;
         transform: scale(1,1);
       }
+      .ss{
+        position: absolute;
+        left: 781px;
+        top:137px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vs{
+        position: absolute;
+        left: 787px;
+        top:131px;
+        transform: scale(1,1);
+      }
+      .gs{
+        position: absolute;
+        left: 787px;
+        top:131px;
+        transform: scale(1,1);
+      }
+      .bgs{
+        position: absolute;
+        left: 787px;
+        top:131px;
+        transform: scale(1,1);
+        display: none;
+      }
+
+
+
 
       .t{
         position: absolute;
         left: 7px;
         top:251px;
       }
+      .st{
+        position: absolute;
+        left: 1px;
+        top:257px;
+        filter: blur(2.5px);
+      }
+      .vt{
+        position: absolute;
+        left: 7px;
+        top:251px;
+      }
+      .gt{
+        position: absolute;
+        left: 7px;
+        top:251px;
+      }
+      .bgt{
+        position: absolute;
+        left: 7px;
+        top:251px;
+        display: none;
+      }
+
+
+
 
       .u{
         position: absolute;
@@ -589,6 +727,33 @@ background: linear-gradient(to bottom, #454545, #191919); /*Standard*/
         top:312px;
         transform: scale(1,-1);
       }
+      .su{
+        position: absolute;
+        left: 82px;
+        top:318px;
+        transform: scale(1,-1);
+        filter: blur(2.5px);
+      }
+      .vu{
+        position: absolute;
+        left: 88px;
+        top:312px;
+        transform: scale(1,-1);
+      }
+      .gu{
+        position: absolute;
+        left: 88px;
+        top:312px;
+        transform: scale(1,-1);
+      }
+      .bgu{
+        position: absolute;
+        left: 88px;
+        top:312px;
+        transform: scale(1,-1);
+        display: none;
+      }
+
 
       .v{
         position: absolute;
@@ -597,12 +762,71 @@ background: linear-gradient(to bottom, #454545, #191919); /*Standard*/
         transform: scale(1,-1);
       }
 
+      .vv{
+        position: absolute;
+        left: 185px;
+        top:312px;
+        transform: scale(1,-1);
+      }
+      .gv{
+        position: absolute;
+        left: 185px;
+        top:312px;
+        transform: scale(1,-1);
+      }
+      .bgv{
+        position: absolute;
+        left: 185px;
+        top:312px;
+        transform: scale(1,-1);
+        display: none;
+      }
+      .sv{
+        position: absolute;
+        left: 179px;
+        top:318px;
+        transform: scale(1,-1);
+        filter: blur(2.5px);
+      }
+
+
+
+
+
       .w{
         position: absolute;
         left: 274px;
         top:312px;
         transform: scale(1,-1);
       }
+      .sw{
+        position: absolute;
+        left: 268px;
+        top:318px;
+        transform: scale(1,-1);
+        filter: blur(2.5px);
+      }
+      .vw{
+        position: absolute;
+        left: 274px;
+        top:312px;
+        transform: scale(1,-1);
+      }
+      .gw{
+        position: absolute;
+        left: 274px;
+        top:312px;
+        transform: scale(1,-1);
+      }
+      .bgw{
+        position: absolute;
+        left: 274px;
+        top:312px;
+        transform: scale(1,-1);
+        display: none;
+      }
+
+
 
       .x{
         position: absolute;
@@ -610,6 +834,35 @@ background: linear-gradient(to bottom, #454545, #191919); /*Standard*/
         top:248px;
         transform: scale(1,1);
       }
+      .sx{
+        position: absolute;
+        left: 421px;
+        top:254px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vx{
+        position: absolute;
+        left: 427px;
+        top:248px;
+        transform: scale(1,1);
+      }
+      .gx{
+        position: absolute;
+        left: 427px;
+        top:248px;
+        transform: scale(1,1);
+      }
+      .bgx{
+        position: absolute;
+        left: 427px;
+        top:248px;
+        transform: scale(1,1);
+        display: none;
+      }
+
+
+
 
       .y{
         position: absolute;
@@ -617,6 +870,35 @@ background: linear-gradient(to bottom, #454545, #191919); /*Standard*/
         top:312px;
         transform: scale(1,-1);
       }
+      .sy{
+        position: absolute;
+        left: 512px;
+        top:318px;
+        transform: scale(1,-1);
+        filter: blur(2.5px);
+      }
+      .vy{
+        position: absolute;
+        left: 520px;
+        top:312px;
+        transform: scale(1,-1);
+      }
+      .gy{
+        position: absolute;
+        left: 520px;
+        top:312px;
+        transform: scale(1,-1);
+      }
+      .bgy{
+        position: absolute;
+        left: 520px;
+        top:312px;
+        transform: scale(1,-1);
+        display: none;
+      }
+
+
+
 
       .z{
         position: absolute;
@@ -624,6 +906,35 @@ background: linear-gradient(to bottom, #454545, #191919); /*Standard*/
         top:251px;
         transform: scale(1,1);
       }
+      .sz{
+        position: absolute;
+        left: 617px;
+        top:257px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vz{
+        position: absolute;
+        left: 623px;
+        top:251px;
+        transform: scale(1,1);
+      }
+      .gz{
+        position: absolute;
+        left: 623px;
+        top:251px;
+        transform: scale(1,1);
+      }
+      .bgz{
+        position: absolute;
+        left: 623px;
+        top:251px;
+        transform: scale(1,1);
+        display: none;
+      }
+
+
+
 
       .a1{
         position: absolute;
