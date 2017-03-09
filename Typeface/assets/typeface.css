@@ -5,7 +5,7 @@
         width: auto;
         height: auto;
 
-        background: #353535;
+        background: #101010;
 
       }
       
@@ -50,13 +50,13 @@
       .va{
         position: absolute;
         left: 0px;
-        animation:disappeara 6.6s infinite;
+       
       }
 
       .ga{
         position: absolute;
         left: 0px;
-        animation:appeara 6.6s infinite;
+       
         
       }
 
@@ -64,34 +64,11 @@
         position: absolute;
         left: 0px;
         display: none;
-        animation:appeara 6.6s infinite;
+        
       }
       
 
-      @keyframes appeara{
-        0%   {display:initial; opacity: 0;filter: blur(30.5px);}
-        72%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        72.1%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        74%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        75%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        77%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        79%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        81%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        100%  {display:initial;opacity: 0;filter: blur(30.5px);}
-      }
-
-      @keyframes disappeara{
-        0%   {display:initial; opacity: 1}
-        72%  {display:initial;opacity: 1}
-        72.1%  {display:initial;opacity: 0}
-        74%  {display:initial;opacity: 1}
-        75%  {display:initial;opacity: 0}
-        77%  {display:initial;opacity: 1}
-        79%  {display:initial;opacity: 0}
-        81%  {display:initial;opacity: 1}
-        100%  {display:initial;opacity: 1}
-      }
-
+      
      
 
       .b{
@@ -112,14 +89,14 @@
         position: absolute;
         left: -135px;
         transform: scale(-1,1);
-        animation:disappearb 6.6s infinite;
+
       }
 
       .gb{
         position: absolute;
         left: -135px;
         transform: scale(-1,1);
-        animation:appearb 6.6s infinite;
+      
       }
 
       .bgb{
@@ -127,32 +104,9 @@
         left: -135px;
         transform: scale(-1,1);
         display: none;
-        animation:appearb 6.6s infinite;
+     
       }
 
-      @keyframes appearb{
-        0%   {display:initial; opacity: 0;filter: blur(30.5px);}
-        54%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        54.1%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        55%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        57%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        59%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        61%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        63%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        100%  {display:initial;opacity: 0;filter: blur(30.5px);}
-      }
-
-      @keyframes disappearb{
-        0%   {display:initial; opacity: 1}
-        54%  {display:initial;opacity: 1}
-        54.1%  {display:initial;opacity: 0}
-        55%  {display:initial;opacity: 1}
-        57%  {display:initial;opacity: 0}
-        59%  {display:initial;opacity: 1}
-        61%  {display:initial;opacity: 0}
-        63%  {display:initial;opacity: 1}
-        100%  {display:initial;opacity: 1}
-      }
 
 
    
@@ -199,44 +153,21 @@
       .vd{
         position: absolute;
         left: 244px;
-        animation:disappeard 6.6s infinite;
+        
       }
       .gd{
         position: absolute;
         left: 244px;
-        animation:appeard 6.6s infinite;
+        
       }
       .bgd{
         position: absolute;
         left: 244px;
         display: none;
-        animation:appeard 6.6s infinite;
+        
       }
 
-      @keyframes appeard{
-        0%   {display:initial; opacity: 0;filter: blur(30.5px);}
-        90%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        90.1%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        93%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        94%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        96%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        97%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        99%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        100%  {display:initial;opacity: 0;filter: blur(30.5px);}
-      }
-
-      @keyframes disappeard{
-        0%   {display:initial; opacity: 1}
-        90%  {display:initial;opacity: 1}
-        90.1%  {display:initial;opacity: 0}
-        93%  {display:initial;opacity: 1}
-        94%  {display:initial;opacity: 0}
-        96%  {display:initial;opacity: 1}
-        97%  {display:initial;opacity: 0}
-        99%  {display:initial;opacity: 1}
-        100%  {display:initial;opacity: 1}
-      }
- 
+     
 
 
 
@@ -253,16 +184,10 @@
       .ve{
         position: absolute;
         left: 345px;
-
-        animation:disappeare 6.6s infinite;
-        
-        
       }
       .ge{
         position: absolute;
         left: 345px;
-        filter: blur(3.5px);
-        animation:appeare 6.6s infinite;
         
       
       }
@@ -271,49 +196,10 @@
         left: 345px;
         display: none;
         filter: blur(30.5px);
-        animation:appeare 6.6s infinite;
+        
         
       }
-      
-      @keyframes appeare{
-        0%   {display:initial; opacity: 0;filter: blur(30.5px);}
-        18%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        18.1%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        19%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        20%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        21%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        25%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        27%  {display:initial;opacity: 0}
-        36%  {display:initial;opacity: 0}
-        36.1%  {display:initial;opacity: 1}
-        38.1%  {display:initial;opacity: 0}
-        39.1%  {display:initial;opacity: 1}
-        42.1%  {display:initial;opacity: 0}
-        44%  {display:initial;opacity: 1}
-        45%  {display:initial;opacity: 0}
-        100%  {display:initial;opacity: 0}
-      }
-
-      @keyframes disappeare{
-        0%   {display:initial; opacity: 1}
-        18%  {display:initial;opacity: 1}
-        18.1%  {display:initial;opacity: 0}
-        19%  {display:initial;opacity: 1}
-        20%  {display:initial;opacity: 0}
-        21%  {display:initial;opacity: 1}
-        25%  {display:initial;opacity: 0}
-        27%  {display:initial;opacity: 1}
-        36%  {display:initial;opacity: 1}
-        36.1%  {display:initial;opacity: 0}
-        38.1%  {display:initial;opacity: 1}
-        39.1%  {display:initial;opacity: 0}
-        42.1%  {display:initial;opacity: 1}
-        44%  {display:initial;opacity: 0}
-        45%  {display:initial;opacity: 1}
-        100%  {display:initial;opacity: 1}
-      }
-
-
+     
       .sf{
         position: absolute;
         left: 429px;
@@ -495,15 +381,14 @@
         left: -228px;
         top:127px;
         transform: scale(-1,1);
-        animation:disappeark 6.6s infinite;
+        
       }
       .gk{
         position: absolute;
         left: -228px;
         top:127px;
         transform: scale(-1,1);
-        filter: blur(3.5px);
-        animation:appeark 6.6s infinite;
+       
       }
       .bgk{
         position: absolute;
@@ -512,33 +397,9 @@
         transform: scale(-1,1);
         display: none;
         filter: blur(30.5px);
-        animation:appeark 6.6s infinite;
+       
       }
-      
-      @keyframes appeark{
-        0%   {display:initial; opacity: 0}
-        27%  {display:initial;opacity: 0}
-        27.1%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        28%  {display:initial;opacity: 0}
-        29%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        32%  {display:initial;opacity: 0}
-        34%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        36%  {display:initial;opacity: 0}
-        100%  {display:initial;opacity: 0}
-      }
-
-      @keyframes disappeark{
-        0%   {display:initial; opacity: 1}
-        27%  {display:initial;opacity: 1}
-        27.1%  {display:initial;opacity: 0}
-        28%  {display:initial;opacity: 1}
-        29%  {display:initial;opacity: 0}
-        32%  {display:initial;opacity: 1}
-        34%  {display:initial;opacity: 0}
-        36%  {display:initial;opacity: 1}
-        100%  {display:initial;opacity: 1}
-      }
-
+     
 
 
 
@@ -678,14 +539,14 @@
         left: 418px;
         top:128px;
         transform: scale(1,1);
-        animation:disappearo 6.6s infinite;
+        
       }
       .go{
         position: absolute;
         left: 418px;
         top:128px;
         transform: scale(1,1);
-        animation:appearo 6.6s infinite;
+        
       }
       .bgo{
         position: absolute;
@@ -693,32 +554,10 @@
         top:128px;
         transform: scale(1,1);
         display: none;
-        animation:appearo 6.6s infinite;
+        
       }
 
-      @keyframes appearo{
-        0%   {display:initial; opacity: 0;filter: blur(30.5px);}
-        63%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        63.1%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        67%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        68%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        69%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        70%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        72%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        100%  {display:initial;opacity: 0;filter: blur(30.5px);}
-      }
-
-      @keyframes disappearo{
-        0%   {display:initial; opacity: 1}
-        63%  {display:initial;opacity: 1}
-        63.1%  {display:initial;opacity: 0}
-        67%  {display:initial;opacity: 1}
-        68%  {display:initial;opacity: 0}
-        69%  {display:initial;opacity: 1}
-        70%  {display:initial;opacity: 0}
-        72%  {display:initial;opacity: 1}
-        100%  {display:initial;opacity: 1}
-      }
+     
 
 
 
@@ -813,14 +652,14 @@
         left: 691px;
         top:128px;
         transform: scale(1,1);
-        animation:disappearr 6.6s infinite;
+        
       }
       .gr{
         position: absolute;
         left: 691px;
         top:128px;
         transform: scale(1,1);
-        animation:appearr 6.6s infinite;
+        
       }
       .bgr{
         position: absolute;
@@ -828,33 +667,10 @@
         top:128px;
         transform: scale(1,1);
         display: none;
-        animation:appearr 6.6s infinite;
+        
       }
       
-      @keyframes appearr{
-        0%   {display:initial; opacity: 0;filter: blur(30.5px);}
-        81%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        81.1%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        82%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        83%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        85%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        87%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        90%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        100%  {display:initial;opacity: 0;filter: blur(30.5px);}
-      }
-
-      @keyframes disappearr{
-        0%   {display:initial; opacity: 1}
-        81%  {display:initial;opacity: 1}
-        81.1%  {display:initial;opacity: 0}
-        82%  {display:initial;opacity: 1}
-        83%  {display:initial;opacity: 0}
-        85%  {display:initial;opacity: 1}
-        87%  {display:initial;opacity: 0}
-        90%  {display:initial;opacity: 1}
-        100%  {display:initial;opacity: 1}
-      }
-
+     
 
 
 
@@ -876,7 +692,7 @@
         left: 787px;
         top:131px;
         transform: scale(1,1);
-        animation:disappears 6.6s infinite;
+        
        
       }
       .gs{
@@ -884,8 +700,7 @@
         left: 787px;
         top:131px;
         transform: scale(1,1);
-        filter: blur(3.5px);
-        animation:appears 6.6s infinite;
+        
        
       }
       .bgs{
@@ -895,35 +710,10 @@
         transform: scale(1,1);
         display: none;
         filter: blur(30.5px);
-        animation:appears 6.6s infinite;
-        
       }
       
 
-      @keyframes appears{
-        0%   {display:initial; opacity: 0;filter: blur(30.5px);}
-        9%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        9.1%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        14%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        15%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        16%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        17%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        18%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        100%  {display:initial;opacity: 0;filter: blur(30.5px);}
-      }
-
-      @keyframes disappears{
-        0%   {display:initial; opacity: 1}
-        9%  {display:initial;opacity: 1}
-        9.1%  {display:initial;opacity: 0}
-        14%  {display:initial;opacity: 1}
-        15%  {display:initial;opacity: 0}
-        16%  {display:initial;opacity: 1}
-        17%  {display:initial;opacity: 0}
-        18%  {display:initial;opacity: 1}
-        100%  {display:initial;opacity: 1}
-      }
-
+     
 
 
       .t{
@@ -975,47 +765,26 @@
         left: 88px;
         top:312px;
         transform: scale(1,-1);
-        animation:disappearu 6.6s infinite;
+     
       }
       .gu{
         position: absolute;
         left: 88px;
         top:312px;
         transform: scale(1,-1);
-        filter: blur(3.5px);
-        animation:appearu 6.6s infinite;
+      
+     
       }
       .bgu{
         position: absolute;
         left: 88px;
         top:312px;
         transform: scale(1,-1);
-        filter: blur(30.5px);
-        animation:appearu 6.6s infinite;
-
+        display: none;
+      
       }
 
-      @keyframes appearu{
-        0%   {display:initial; opacity: 0.5}
-        4%  {display:initial;opacity: 1}
-        5%  {display:initial;opacity: 0}
-        6%  {display:initial;opacity: 1}
-        7%  {display:initial;opacity: 0}
-        8%  {display:initial;opacity: 1}
-        9%  {display:initial;opacity: 0}
-        100%  {display:initial;opacity: 0}
-      }
-
-      @keyframes disappearu{
-        0%   {display:initial; opacity: 0.5}
-        4%  {display:initial;opacity: 0}
-        5%  {display:initial;opacity: 1}
-        6%  {display:initial;opacity: 0}
-        7%  {display:initial;opacity: 1}
-        8%  {display:initial;opacity: 0}
-        9%  {display:initial;opacity: 1}
-        100%  {display:initial;opacity: 1}
-      }
+    
 
 
       .v{
@@ -1145,14 +914,14 @@
         left: 520px;
         top:312px;
         transform: scale(1,-1);
-        animation:disappeary 6.6s infinite;
+        
       }
       .gy{
         position: absolute;
         left: 520px;
         top:312px;
         transform: scale(1,-1);
-        animation:appeary 6.6s infinite;
+        
       }
       .bgy{
         position: absolute;
@@ -1160,33 +929,10 @@
         top:312px;
         transform: scale(1,-1);
         display: none;
-        animation:appeary 6.6s infinite;
+        
       }
 
-      @keyframes appeary{
-        0%   {display:initial; opacity: 0;filter: blur(30.5px);}
-        45%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        45.1%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        48%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        49%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        50%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        52%  {display:initial;opacity: 1;filter: blur(30.5px);}
-        54%  {display:initial;opacity: 0;filter: blur(30.5px);}
-        100%  {display:initial;opacity: 0;filter: blur(30.5px);}
-      }
-
-      @keyframes disappeary{
-        0%   {display:initial; opacity: 1}
-        45%  {display:initial;opacity: 1}
-        45.1%  {display:initial;opacity: 0}
-        48%  {display:initial;opacity: 1}
-        49%  {display:initial;opacity: 0}
-        50%  {display:initial;opacity: 1}
-        52%  {display:initial;opacity: 0}
-        54%  {display:initial;opacity: 1}
-        100%  {display:initial;opacity: 1}
-      }
-
+     
 
       .z{
         position: absolute;
@@ -1568,174 +1314,7 @@
     
 
 
-      .dot{
-        position: absolute;
-        left: -55px;
-        top:590px;
-        transform: scale(1,1);
-      }
-      .sdot{
-        position: absolute;
-        left: -61px;
-        top:596px;
-        transform: scale(1,1);
-        filter: blur(2.5px);
-      }
-      .vdot{
-        position: absolute;
-        left: -55px;
-        top:590px;
-        transform: scale(1,1);
-      }
-      .gdot{
-        position: absolute;
-        left: -55px;
-        top:590px;
-        transform: scale(1,1);
-      }
-      .bgdot{
-        position: absolute;
-        left: -55px;
-        top:590px;
-        transform: scale(1,1);
-        display: none;
-      }
-
-
-      .comma{
-        position: absolute;
-        left: -200px;
-        top:590px;
-        transform: scale(-1,1);
-      }
-      .scomma{
-        position: absolute;
-        left: -206px;
-        top:596px;
-        transform: scale(-1,1);
-        filter: blur(2.5px);
-      }
-      .vcomma{
-        position: absolute;
-        left: -200px;
-        top:590px;
-        transform: scale(-1,1);
-      }
-      .gcomma{
-        position: absolute;
-        left: -200px;
-        top:590px;
-        transform: scale(-1,1);
-      }
-      .bgcomma{
-        position: absolute;
-        left: -200px;
-        top:590px;
-        transform: scale(-1,1);
-        display: none;
-      }
-
-
-      .question{
-        position: absolute;
-        left: -27px;
-        top:453px;
-        transform: scale(1,1);
-      }
-      .squestion{
-        position: absolute;
-        left: -33px;
-        top:459px;
-        transform: scale(1,1);
-        filter: blur(2.5px);
-      }
-      .vquestion{
-        position: absolute;
-        left: -27px;
-        top:453px;
-        transform: scale(1,1);
-      }
-      .gquestion{
-        position: absolute;
-        left: -27px;
-        top:453px;
-        transform: scale(1,1);
-      }
-      .bgquestion{
-        position: absolute;
-        left: -27px;
-        top:453px;
-        transform: scale(1,1);
-        display: none;
-      }
-
-
-      .exclamation{
-        position: absolute;
-        left: 40px;
-        top:453px;
-        transform: scale(1,1);
-      }
-      .sexclamation{
-        position: absolute;
-        left: 34px;
-        top:459px;
-        transform: scale(1,1);
-        filter: blur(2.5px);
-      }
-      .vexclamation{
-        position: absolute;
-        left: 40px;
-        top:453px;
-        transform: scale(1,1);
-      }
-      .gexclamation{
-        position: absolute;
-        left: 40px;
-        top:453px;
-        transform: scale(1,1);
-      }
-      .bgexclamation{
-        position: absolute;
-        left: 40px;
-        top:453px;
-        transform: scale(1,1);
-        display: none;
-      }
-
-      
-      .leftquotation{
-        position: absolute;
-        left: 90px;
-        top:453px;
-        transform: scale(1,1);
-      }
-      .sleftquotation{
-        position: absolute;
-        left: 84px;
-        top:459px;
-        transform: scale(1,1);
-        filter: blur(2.5px);
-      }
-      .vleftquotation{
-        position: absolute;
-        left: 90px;
-        top:453px;
-        transform: scale(1,1);
-      }
-      .gleftquotation{
-        position: absolute;
-        left: 90px;
-        top:453px;
-        transform: scale(1,1);
-      }
-      .bgleftquotation{
-        position: absolute;
-        left: 90px;
-        top:453px;
-        transform: scale(1,1);
-        display: none;
-      }
+     
 
       
       .blur{

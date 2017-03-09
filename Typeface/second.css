@@ -1,0 +1,547 @@
+body{
+	background-color: #101010;
+	margin:0;
+}
+
+      .a{
+        position: absolute;
+        left: 250px;
+      }
+      .sa{
+        position: absolute;
+        top: 6px;
+        left: 244px;
+        filter: blur(2.5px);
+      }
+      .va{
+        position: absolute;
+        left: 250px;  
+      }
+      .ga{
+        position: absolute;
+        left: 250px;
+        filter: blur(3.5px);       
+      }
+      .bga{
+        position: absolute;
+        left: 250px;
+        filter: blur(30.5px);
+      }
+      .c1{
+        position: absolute;
+        left: 185px;
+      }
+      .sc1{
+        position: absolute;
+        left: 179px;
+        filter: blur(2.5px);
+        top: 6px;
+      }
+      .vc1{
+        position: absolute;
+        left: 185px;
+      }
+      .gc1{
+        position: absolute;
+        left: 185px;
+        filter: blur(3.5px);
+      }
+      .bgc1{
+        position: absolute;
+        left: 185px;
+        filter: blur(30.5px);
+      }
+      .c2{
+        position: absolute;
+        left: 120px;
+      }
+      .sc2{
+        position: absolute;
+        left: 114px;
+        filter: blur(2.5px);
+        top: 6px;
+      }
+      .vc2{
+        position: absolute;
+        left: 120px;
+      }
+      .gc2{
+        position: absolute;
+        left: 120px;
+        filter: blur(3.5px);
+      }
+      .bgc2{
+        position: absolute;
+        left: 120px;
+        filter: blur(30.5px);
+      }
+     .o{
+        position: absolute;
+        left: 120px;
+        top: 340px;
+      }
+      .so{
+        position: absolute;
+        left: 114px;
+        filter: blur(2.5px);
+        top: 346px;
+      }
+      .vo{
+        position: absolute;
+        left: 120px;
+        top: 340px;
+      }
+      .go{
+        position: absolute;
+        left: 120px;
+        filter: blur(3.5px);
+        top: 340px;
+      }
+      .bgo{
+        position: absolute;
+        left: 120px;
+        filter: blur(30.5px);
+        top: 340px;transform:
+      }
+      .p{
+        position: absolute;
+        left: -340px;
+        transform: scale(-1,-1);
+        top: 305px;
+      }
+      .sp{
+        position: absolute;
+        left: -346px;
+        transform: scale(-1,-1);
+        top: 311px;
+        filter: blur(2.5px);
+      }
+      .vp{
+        position: absolute;
+        left: -340px;
+        transform: scale(-1,-1);
+        top: 305px;
+      }
+      .gp{
+        position: absolute;
+        left: -340px;
+        transform: scale(-1,-1);
+        top: 305px;
+        filter: blur(3.5px);
+      }
+      .bgp{
+        position: absolute;
+        left: -340px;
+        transform: scale(-1,-1);
+        top: 305px;
+         filter: blur(30.5px);
+      }    
+      .e{
+        position: absolute;
+        left: 265px;
+        top: 342px;
+      }
+      .se{
+        position: absolute;
+        left: 259px;
+        top: 348px;
+        filter: blur(2.5px);
+      }
+      .ve{
+        position: absolute;
+        left: 265px;
+        top: 342px;
+      }
+      .ge{
+        position: absolute;
+        left: 265px;
+        top: 342px;filter: blur(3.5px);  
+      }
+      .bge{
+        position: absolute;
+        left: 265px;
+        top: 342px;
+        filter: blur(30.5px);
+      }
+      .n{
+        position: absolute;
+        left: -195px;
+        top: 342px;
+        transform: scale(-1,1);
+      }
+      .sn{
+        position: absolute;
+        left: -201px;
+        top: 348px;
+        transform: scale(-1,1);
+        filter: blur(2.5px);
+      }
+      .vn{
+        position: absolute;
+        left: -195px;
+        top: 342px;
+        transform: scale(-1,1);
+      }
+      .gn{
+        position: absolute;
+        left: -195px;
+        top: 342px;
+        transform: scale(-1,1);
+        filter: blur(3.5px);
+      }
+      .bgn{
+        position: absolute;
+        left: -195px;
+        top: 342px;
+        transform: scale(-1,1);
+        filter: blur(30.5px);      
+      }
+      .curve{
+      	position: absolute;
+        left: 125px;
+        top: 400px;
+      }
+      .scurve{
+      	position: absolute;
+        left: 119px;
+        top: 406px;
+        filter: blur(2.5px);
+      }
+      .vcurve{
+      	position: absolute;
+        left: 125px;
+        top: 400px;
+      }
+      .gcurve{
+      	position: absolute;
+        left: 125px;
+        top: 400px;
+        filter: blur(3.5px);
+      }
+      .bgcurve{
+      	position: absolute;
+        left: 125px;
+        top: 400px;
+        filter: blur(30.5px);
+      }
+
+      .curve2{
+      	position: absolute;
+        left: -210px;
+        top: 240px;
+        transform: scale(-1,-1);
+      }
+      .scurve2{
+      	position: absolute;
+        left: -216px;
+        top: 246px;
+        transform: scale(-1,-1);
+        filter: blur(2.5px);
+      }
+      .vcurve2{
+      	position: absolute;
+        left: -210px;
+        top: 240px;
+        transform: scale(-1,-1);
+      }
+      .gcurve2{
+      	position: absolute;
+        left: -210px;
+        top: 240px;
+        transform: scale(-1,-1);
+        filter: blur(3.5px);
+      }
+      .bgcurve2{
+      	position: absolute;
+        left: -210px;
+        top: 240px;
+        transform: scale(-1,-1);
+        filter: blur(30.5px);
+      }
+
+           .x{
+        position: absolute;
+        left: 505px;
+        top:0px;
+        transform: scale(1,1);
+      }
+      .sx{
+        position: absolute;
+        left: 499px;
+        top:5px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vx{
+        position: absolute;
+        left: 505px;
+        top:0px;
+        transform: scale(1,1);
+      }
+      .gx{
+        position: absolute;
+        left: 505px;
+        top:0px;
+        transform: scale(1,1);
+        filter: blur(3.5px);
+      }
+      .bgx{
+        position: absolute;
+        left: 505px;
+        top:0px;
+        transform: scale(1,1);
+        filter: blur(30.5px);
+      }
+
+      .e2{
+        position: absolute;
+        left: 445px;
+      }
+      .se2{
+        position: absolute;
+        left: 439px;
+        top: 6px;
+        filter: blur(2.5px);
+      }
+      .ve2{
+        position: absolute;
+        left: 445px;
+      }
+      .ge2{
+        position: absolute;
+        left: 445px;
+        filter: blur(3.5px);
+      
+      }
+      .bge2{
+        position: absolute;
+        left: 445px;
+       
+        filter: blur(30.5px);
+
+      }
+
+         .si{
+     
+        position: absolute;
+        left: -33px;
+        top:-22px;
+        transform: scale(-1,1);
+        filter: blur(2.5px);
+      }
+
+      .vi{
+        position: absolute;
+        left: -27px;
+        top:-28px;
+        transform: scale(-1,1);
+      }
+
+      .gi{
+        position: absolute;
+        left: -27px;
+        top:-28px;
+        transform: scale(-1,1);
+        filter: blur(3.5px);
+      }
+
+      .bgi{
+        position: absolute;
+        left: -27px;
+        top:-28px;
+        transform: scale(-1,1);
+        
+        filter: blur(30.5px);
+      }
+
+      .i{
+        position: absolute;
+        left: -27px;
+        top:-28px;
+        transform: scale(-1,1);
+      }
+
+      .t{
+        position: absolute;
+        left: 497px;
+        top:5px;
+      }
+      .st{
+        position: absolute;
+        left: 491px;
+        top:11px;
+        filter: blur(2.5px);
+      }
+      .vt{
+        position: absolute;
+        left: 497px;
+        top:5px;
+      }
+      .gt{
+        position: absolute;
+        left: 497px;
+        top:5px;
+        filter: blur(3.5px);
+      }
+      .bgt{
+        position: absolute;
+        left: 497px;
+        top:5px;
+        
+        filter: blur(30.5px);
+      }
+      .b{
+        position: absolute;
+        left: 140px;
+        top: 500px;
+        transform: scale(-1,1);
+      }
+
+      .sb{
+        position: absolute;
+        left: 130px;
+        top: 506px;
+        transform: scale(-1,1);
+        filter: blur(2.5px);
+      }
+      
+      .vb{
+        position: absolute;
+        left: 140px;
+        top: 500px;
+        transform: scale(-1,1);
+
+      }
+
+      .gb{
+        position: absolute;
+        left: 140px;
+        top: 500px;
+        transform: scale(-1,1);
+        filter: blur(3.5px);
+      
+      }
+
+      .bgb{
+        position: absolute;
+        left: 140px;
+        top: 500px;
+        transform: scale(-1,1);
+        filter: blur(30.5px);
+     
+      }
+      .a2{
+        position: absolute;
+        left: 742px;
+        top: 500px;
+      }
+      .sa2{
+        position: absolute;
+        left: 736px;
+        top: 506px;
+        filter: blur(2.5px);
+      }
+
+      .va2{
+        position: absolute;
+        left: 742px;
+        top: 500px; 
+      }
+
+      .ga2{
+        position: absolute;
+        left: 742px;
+        top: 500px; 
+        filter: blur(3.5px);
+      }
+
+      .bga2{
+        position: absolute;
+        left: 742px;
+        top: 500px;
+        filter: blur(30.5px);
+      }
+  
+      .r{
+        position: absolute;
+        left: 810px;
+        top:500px;
+        transform: scale(1,1);
+      }
+      .sr{
+        position: absolute;
+        left: 804px;
+        top:506px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vr{
+        position: absolute;
+        left: 810px;
+        top:500px;
+        transform: scale(1,1);
+        
+      }
+      .gr{
+        position: absolute;
+        left: 810px;
+        top:500px;
+        transform: scale(1,1);
+        filter: blur(3.5px);
+      }
+      .bgr{
+        position: absolute;
+        left: 810px;
+        top:500px;
+        transform: scale(1,1);
+        filter: blur(30.5px);
+        
+      }
+      
+       .cup{
+        position: absolute;
+        left: 740px;
+        top:430px;
+        transform: scale(1,1);
+      }
+      .scup{
+        position: absolute;
+        left: 734px;
+        top:436px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vcup{
+        position: absolute;
+        left: 740px;
+        top:430px;
+        transform: scale(1,1);
+        
+      }
+      .gcup{
+        position: absolute;
+        left: 740px;
+        top:430px;
+        transform: scale(1,1);
+        filter: blur(3.5px);
+      }
+      .bgcup{
+        position: absolute;
+        left: 740px;
+        top:430px;
+        transform: scale(1,1);
+        filter: blur(30.5px);
+        
+      }
+      .bar{
+      	transform: scale(0.7);
+      	position: absolute;
+      	left: 80px;
+      }
+
+      
+     
+
+
+
+
