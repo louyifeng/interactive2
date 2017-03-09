@@ -4306,9 +4306,9 @@ var a1 = $('#a1')[0],
     a2 = $('#a2')[0];
 
 $(window).keydown(function (e) {
-    if ( e.which === 13 ) {
+    if ( e.which === 39 ) {
         window.location.href = a1.href;        
-    } else if ( e.which === 39 ) {
+    } else if ( e.which === 13 ) {
         window.location.href = a2.href; 
     }
 });
