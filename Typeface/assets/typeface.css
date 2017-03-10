@@ -1339,3 +1339,293 @@
         animation: blink 1s;
       }
 
+
+       .r2{
+        position: absolute;
+        left: 971px;
+        top:130px;
+        transform: scale(1,1);
+      }
+      .sr2{
+        position: absolute;
+        left: 965px;
+        top:136px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vr2{
+        position: absolute;
+        left: 971px;
+        top:130px;
+        transform: scale(1,1);  
+      }
+      .gr2{
+        position: absolute;
+        left: 971px;
+        top:130px;
+        transform: scale(1,1);
+        filter: blur(3.5px);
+      }
+      .bgr2{
+        position: absolute;
+        left: 971px;
+        top:130px;
+        transform: scale(1,1);
+        filter: blur(30.5px); 
+      }
+
+
+     .return{
+      transform: scale(0.5);
+      position: absolute;
+      left: 280px;
+      top: 520px;
+      animation:blink3 1s infinite;
+     }
+
+      .e4{
+        position: absolute;
+        left: 759px;
+        top: 130px;
+      }
+      .se4{
+        position: absolute;
+        left: 753px;
+        top: 136px;
+        filter: blur(2.5px);
+      }
+      .ve4{
+        position: absolute;
+        left: 759px;
+        top: 130px;
+      }
+      .ge4{
+        position: absolute;
+        left: 759px;
+        top: 130px;
+        filter: blur(3.5px); 
+      }
+      .bge4{
+        position: absolute;
+        left: 759px;
+        top: 130px;
+        
+        filter: blur(30.5px);     
+      }
+
+
+      .t2{
+        position: absolute;
+        left: 833px;
+        top:133px;
+      }
+      .st2{
+        position: absolute;
+        left: 833px;
+        top:133px;
+        filter: blur(2.5px);
+      }
+      .vt2{
+        position: absolute;
+        left: 833px;
+        top:133px;
+      }
+      .gt2{
+        position: absolute;
+        left: 833px;
+        top:133px;
+        filter: blur(3.5px);
+      }
+      .bgt2{
+        position: absolute;
+        left: 827px;
+        top:139px;
+        filter: blur(30.5px);
+      }
+
+
+       .u2{
+        position: absolute;
+        left: 888px;
+        top:93px;
+        transform: scale(1,-1);
+      }
+      .su2{
+        position: absolute;
+        left: 882px;
+        top:99px;
+        transform: scale(1,-1);
+        filter: blur(2.5px);
+      }
+      .vu2{
+        position: absolute;
+        left: 888px;
+        top:93px;
+        transform: scale(1,-1);
+     
+      }
+      .gu2{
+        position: absolute;
+        left: 888px;
+        top:93px;
+        transform: scale(1,-1);
+        filter: blur(3.5px);
+      
+     
+      }
+      .bgu2{
+        position: absolute;
+        left: 888px;
+        top:93px;
+        transform: scale(1,-1);
+        filter: blur(30.5px);
+      
+      }
+      
+
+       .r3{
+        position: absolute;
+        left: 691px;
+        top:128px;
+        transform: scale(1,1);
+      }
+      .sr3{
+        position: absolute;
+        left: 685px;
+        top:134px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vr3{
+        position: absolute;
+        left: 691px;
+        top:128px;
+        transform: scale(1,1);  
+      }
+      .gr3{
+        position: absolute;
+        left: 691px;
+        top:128px;
+        transform: scale(1,1);
+        filter: blur(3.5px);
+      }
+      .bgr3{
+        position: absolute;
+        left: 691px;
+        top:128px;
+        transform: scale(1,1);
+        filter: blur(30.5px);
+      }
+
+      .n2{
+        position: absolute;
+        left: 506px;
+        top:130px;
+        transform: scale(-1,1);
+      }
+      .sn2{
+        position: absolute;
+        left: 500px;
+        top:136px;
+        transform: scale(-1,1);
+        filter: blur(2.5px);
+      }
+      .vn2{
+        position: absolute;
+        left: 506px;
+        top:130px;
+        transform: scale(-1,1);
+      }
+      .gn2{
+        position: absolute;
+        left: 506px;
+        top:130px;
+        transform: scale(-1,1);
+        filter: blur(3.5px);
+      }
+      .bgn2{
+        position: absolute;
+        left: 506px;
+        top:130px;
+        transform: scale(-1,1);
+        filter: blur(30.5px);
+      }
+
+
+      .arrow{
+        position: absolute;
+        left: 606px;
+        top:130px;
+      }
+      .sarrow{
+        position: absolute;
+        left: 600px;
+        top:136px;
+        filter: blur(2.5px);
+      }
+      .varrow{
+        position: absolute;
+        left: 606px;
+        top:130px;
+      }
+      .garrow{
+        position: absolute;
+        left: 606px;
+        top:130px;
+        filter: blur(3.5px);
+      }
+      .bgarrow{
+        position: absolute;
+        left: 606px;
+        top:130px;
+        filter: blur(30.5px);
+      }
+
+      .question{
+        position: absolute;
+        right: -12%;
+        bottom:-6%;
+        transform: scale(-0.5,0.5);
+      }
+      
+      .description{
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        right: 8%;
+        bottom: 22%;
+        background-color: transparent;
+        color: white;
+        display: none;
+        font-family: 'Open Sans', sans-serif;
+
+
+      }
+
+      .display{
+        display: initial;
+        animation:appear 0.5s;
+      }
+     
+
+     @keyframes appear{
+      from{opacity: 0;}
+      to{opacity: 1;}
+     }
+
+
+
+       @keyframes blink3{
+        0%   {opacity: 0}
+        25%  {opacity: 1}
+        50%  {opacity: 0}
+        55%  {opacity: 1}
+        65%  {opacity: 0}
+        70%  {opacity: 1}
+       
+        75% {opacity: 0}
+        80% {opacity: 1}
+        85% {opacity: 0}
+        100% {opacity: 1}
+      }
+    

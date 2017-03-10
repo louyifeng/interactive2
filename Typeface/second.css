@@ -264,6 +264,7 @@ body{
         left: 505px;
         top:0px;
         transform: scale(1,1);
+        
       }
       .sx{
         position: absolute;
@@ -277,6 +278,7 @@ body{
         left: 505px;
         top:0px;
         transform: scale(1,1);
+        animation:blink3 1s infinite;
       }
       .gx{
         position: absolute;
@@ -284,6 +286,8 @@ body{
         top:0px;
         transform: scale(1,1);
         filter: blur(3.5px);
+        animation:blink3 1s infinite;
+
       }
       .bgx{
         position: absolute;
@@ -291,6 +295,7 @@ body{
         top:0px;
         transform: scale(1,1);
         filter: blur(30.5px);
+        animation:blink3 1s infinite;
       }
 
       .e2{
@@ -395,6 +400,8 @@ body{
         left: 140px;
         top: 500px;
         transform: scale(-1,1);
+     
+     
       }
 
       .sb{
@@ -410,6 +417,7 @@ body{
         left: 140px;
         top: 500px;
         transform: scale(-1,1);
+        animation:blink3 0.5s infinite;
 
       }
 
@@ -419,6 +427,8 @@ body{
         top: 500px;
         transform: scale(-1,1);
         filter: blur(3.5px);
+        animation:blink3 1.5s infinite;
+        animation-delay: 0.4s;
       
       }
 
@@ -428,6 +438,8 @@ body{
         top: 500px;
         transform: scale(-1,1);
         filter: blur(30.5px);
+        animation:blink3 1.5s infinite;
+        animation-delay: 0.4s;
      
       }
       .a2{
@@ -534,14 +546,726 @@ body{
         
       }
       .bar{
-      	transform: scale(0.7);
-      	position: absolute;
-      	left: 80px;
+      	
+      position: absolute;
+      left: 250px;
+      top: 450px;
+
       }
 
       
+      .s{
+        position: absolute;
+        left: 179px;
+        top:231px;
+        transform: scale(1,1);
+      }
+      .ss{
+        position: absolute;
+      left: 173px;
+        top:237px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vs{
+        position: absolute;
+      left: 179px;
+        top:231px;
+        transform: scale(1,1);
+        
+       
+      }
+      .gs{
+        position: absolute;
+       left: 179px;
+        top:231px;
+        transform: scale(1,1);
+        filter: blur(3.5px);
+        
+       
+      }
+      .bgs{
+        position: absolute;
+        left: 179px;
+        top:231px;
+        transform: scale(1,1);   
+        filter: blur(30.5px);
+      }
+
+
+      .s2{
+        position: absolute;
+        left: 555px;
+        top:234px;
+        transform: scale(1,1);
+      }
+      .ss2{
+        position: absolute;
+        left: 549px;
+        top:240px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vs2{
+        position: absolute;
+        left: 555px;
+        top:234px;
+        transform: scale(1,1);
+        
+       
+      }
+      .gs2{
+        position: absolute;
+        left: 555px;
+        top:234px;
+        transform: scale(1,1);
+        filter: blur(3.5px);
+       
+      }
+      .bgs2{
+        position: absolute;
+        left: 555px;
+        top:234px;
+        transform: scale(1,1);
+        filter: blur(30.5px);
+      }
+
+      .lasvegas{
+        position: absolute;
+        top: 300px;
+        left: 250px;
+      }
+      
+     .cca{
+      position: absolute;
+      left: 0px;
+      top: 100px;
+     }
+
+     .exit{
+      position: absolute;
+      left: 400px;
+      top: 100px;
+     }
+
+     .open{
+      position: absolute;
+      left: 50px;
+      top: 570px;
+     }
+
      
 
+      .l{
+        position: absolute;
+        left: 47px;
+        top:191px;
+        transform: scale(1,-1);
+      }
+
+      .sl{
+        position: absolute;
+        left: 41px;
+        top:203px;
+        transform: scale(1,-1);
+        filter: blur(2.5px);
+      }
+      .vl{
+        position: absolute;
+        left: 47px;
+        top:191px;
+        transform: scale(1,-1);
+      }
+      .gl{
+        position: absolute;
+        left: 47px;
+        top:191px;
+        transform: scale(1,-1);
+        filter: blur(3.5px);
+      }
+      .bgl{
+        position: absolute;
+        left: 47px;
+        top:191px;
+        transform: scale(1,-1);
+        filter: blur(30.5px);
+      }
+
+      .a3{
+        position: absolute;
+        left: 100px;
+        top: 230px;
+      }
+      .sa3{
+        position: absolute;
+        left: 94px;
+        top: 236px;
+        filter: blur(2.5px);
+      }
+
+      .va3{
+        position: absolute;
+        left: 100px;
+        top: 230px;
+       
+      }
+
+      .ga3{
+        position: absolute;
+        left: 100px;
+        top: 230px;
+        filter: blur(3.5px);
+       
+        
+      }
+
+      .bga3{
+        position: absolute;
+        left: 100px;
+        top: 230px;
+        filter: blur(30.5px);
+        
+      }
+
+      .v{
+        position: absolute;
+        left: 255px;
+        top:192px;
+        transform: scale(1,-1);
+      }
+
+      .vv{
+        position: absolute;
+        left: 255px;
+        top:192px;
+        transform: scale(1,-1);
+      }
+      .gv{
+        position: absolute;
+        left: 255px;
+        top:192px;
+        transform: scale(1,-1);
+        filter: blur(3.5px);
+      }
+      .bgv{
+        position: absolute;
+       left: 255px;
+        top:192px;
+        transform: scale(1,-1);
+        filter: blur(30.5px);
+      }
+      .sv{
+        position: absolute;
+       left: 249px;
+        top:198px;
+        transform: scale(1,-1);
+        filter: blur(2.5px);
+      }
+      
+      .e3{
+        position: absolute;
+        left: 335px;
+        top: 230px;
+      }
+      .se3{
+        position: absolute;
+        left: 329px;
+        top: 236px;
+        filter: blur(2.5px);
+      }
+      .ve3{
+        position: absolute;
+        left: 335px;
+        top: 230px;
+      }
+      .ge3{
+        position: absolute;
+        left: 335px;
+        top: 230px;
+        filter: blur(3.5px);
+        
+      
+      }
+      .bge3{
+        position: absolute;
+        left: 335px;
+        top: 230px;
+        filter: blur(30.5px);
+      }
+
+
+      .sg{
+        position: absolute;
+        left: 400px;
+        top: 236px;
+        filter: blur(2.5px);
+      }
+      .g{
+        position: absolute;
+        left: 406px;
+        top: 230px;
+        animation-delay: 0.5s;
+        
+      }
+      .vg{
+        position: absolute;
+        left: 406px;
+        top: 230px;
+        animation:blink3 0.5s infinite;
+      }
+      .gg{
+        position: absolute;
+        left: 406px;
+        top: 230px;
+        filter: blur(3.5px);
+        animation-delay: 0.5s;
+        animation:blink3 0.5s infinite;
+      }
+      .bgg{
+        position: absolute;
+        left: 406px;
+        top: 230px;
+        filter: blur(30.5px);
+        animation-delay: 0.5s;
+        animation:blink3 0.5s infinite;
+      }
+
+      .a4{
+        position: absolute;
+        left: 478px;
+      top: 231px;
+      }
+      .sa4{
+        position: absolute;
+        left: 472px;
+      top: 237px;
+        filter: blur(2.5px);
+      }
+
+      .va4{
+        position: absolute;
+        left: 478px;
+      top: 231px;
+       
+      }
+
+      .ga4{
+        position: absolute;
+        left: 478px;
+      top: 231px;filter: blur(3.5px);
+       
+        
+      }
+
+      .bga4{
+        position: absolute;
+        left: 478px;
+      top: 231px;
+        filter: blur(30.5px);
+        
+      }
+      
+  @font-face {
+  font-family: 'MyWebFont';
+  src: 
+       url('LasEnter.ttf') format('truetype');
+}
+
+       .welcome{
+        color: #edffff;
+        position: absolute;
+        top: 210px;
+        left: 300px;
+        width: 300px;
+        font-size: 100px;
+        font-family: 'MyWebFont';
+
+       }
+       .swelcome{
+        color: black;
+        position: absolute;
+        top: 216px;
+        left: 294px;
+        width: 300px;
+        font-size: 100px;
+        font-family: 'MyWebFont';
+        filter: blur(2.5px);
+
+       }
+       .vwelcome{
+        color: white;
+        position: absolute;
+        top: 210px;
+        left: 300px;
+        width: 300px;
+        font-size: 100px;
+        font-family: 'MyWebFont';
+
+       }
+       .gwelcome{
+        color:#25aef4;
+        position: absolute;
+        top: 210px;
+        left: 300px;
+        width: 300px;
+        font-size: 100px;
+        font-family: 'MyWebFont';
+        filter: blur(3.5px);
+
+       }
+       .bgwelcome{
+        color: #4d8cf5;
+        position: absolute;
+        top: 210px;
+        left: 300px;
+        width: 300px;
+        font-size: 100px;
+        font-family: 'MyWebFont';
+        filter: blur(30.5px);
+       }
 
 
 
+
+       .sframe{
+        position: absolute;
+        left: 80px;
+        top: 111px;
+        filter: blur(2.5px);
+      }
+
+
+      .frame{
+        position: absolute;
+        left: 86px;
+        top: 105px;
+      }
+
+
+      .vframe{
+        position: absolute;
+        left: 86px;
+        top: 105px;
+      }
+      .gframe{
+        position: absolute;
+        left: 86px;
+        top: 105px;
+        filter: blur(3.5px);
+      }
+      .bgframe{
+        position: absolute;
+        left: 86px;
+        top: 105px;
+        filter: blur(30.5px);
+      }
+
+
+
+
+
+      .r2{
+        position: absolute;
+        left: 971px;
+        top:130px;
+        transform: scale(1,1);
+      }
+      .sr2{
+        position: absolute;
+        left: 965px;
+        top:136px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vr2{
+        position: absolute;
+        left: 971px;
+        top:130px;
+        transform: scale(1,1);  
+      }
+      .gr2{
+        position: absolute;
+        left: 971px;
+        top:130px;
+        transform: scale(1,1);
+        filter: blur(3.5px);
+      }
+      .bgr2{
+        position: absolute;
+        left: 971px;
+        top:130px;
+        transform: scale(1,1);
+        filter: blur(30.5px); 
+      }
+
+
+     .return{
+      transform: scale(0.7);
+      position: absolute;
+      left: 800px;
+      top: 440px;
+      animation:blink3 1s infinite;
+     }
+
+      .e4{
+        position: absolute;
+        left: 759px;
+        top: 130px;
+      }
+      .se4{
+        position: absolute;
+        left: 753px;
+        top: 136px;
+        filter: blur(2.5px);
+      }
+      .ve4{
+        position: absolute;
+        left: 759px;
+        top: 130px;
+      }
+      .ge4{
+        position: absolute;
+        left: 759px;
+        top: 130px;
+        filter: blur(3.5px); 
+      }
+      .bge4{
+        position: absolute;
+        left: 759px;
+        top: 130px;
+        
+        filter: blur(30.5px);     
+      }
+
+
+      .t2{
+        position: absolute;
+        left: 833px;
+        top:133px;
+      }
+      .st2{
+        position: absolute;
+        left: 833px;
+        top:133px;
+        filter: blur(2.5px);
+      }
+      .vt2{
+        position: absolute;
+        left: 833px;
+        top:133px;
+      }
+      .gt2{
+        position: absolute;
+        left: 833px;
+        top:133px;
+        filter: blur(3.5px);
+      }
+      .bgt2{
+        position: absolute;
+        left: 827px;
+        top:139px;
+        filter: blur(30.5px);
+      }
+
+
+       .u{
+        position: absolute;
+        left: 888px;
+        top:93px;
+        transform: scale(1,-1);
+      }
+      .su{
+        position: absolute;
+        left: 882px;
+        top:99px;
+        transform: scale(1,-1);
+        filter: blur(2.5px);
+      }
+      .vu{
+        position: absolute;
+        left: 888px;
+        top:93px;
+        transform: scale(1,-1);
+     
+      }
+      .gu{
+        position: absolute;
+        left: 888px;
+        top:93px;
+        transform: scale(1,-1);
+        filter: blur(3.5px);
+      
+     
+      }
+      .bgu{
+        position: absolute;
+        left: 888px;
+        top:93px;
+        transform: scale(1,-1);
+        filter: blur(30.5px);
+      
+      }
+      
+
+       .r3{
+        position: absolute;
+        left: 691px;
+        top:128px;
+        transform: scale(1,1);
+      }
+      .sr3{
+        position: absolute;
+        left: 685px;
+        top:134px;
+        transform: scale(1,1);
+        filter: blur(2.5px);
+      }
+      .vr3{
+        position: absolute;
+        left: 691px;
+        top:128px;
+        transform: scale(1,1);  
+      }
+      .gr3{
+        position: absolute;
+        left: 691px;
+        top:128px;
+        transform: scale(1,1);
+        filter: blur(3.5px);
+      }
+      .bgr3{
+        position: absolute;
+        left: 691px;
+        top:128px;
+        transform: scale(1,1);
+        filter: blur(30.5px);
+      }
+
+      .n2{
+        position: absolute;
+        left: 506px;
+        top:130px;
+        transform: scale(-1,1);
+       
+      }
+      .sn2{
+        position: absolute;
+        left: 500px;
+        top:136px;
+        transform: scale(-1,1);
+        filter: blur(2.5px);
+      }
+      .vn2{
+        position: absolute;
+        left: 506px;
+        top:130px;
+        transform: scale(-1,1);
+      }
+      .gn2{
+        position: absolute;
+        left: 506px;
+        top:130px;
+        transform: scale(-1,1);
+        filter: blur(3.5px);
+      
+      }
+      .bgn2{
+        position: absolute;
+        left: 506px;
+        top:130px;
+        transform: scale(-1,1);
+        filter: blur(30.5px);
+  
+      }
+
+
+      .arrow{
+        position: absolute;
+        left: 606px;
+        top:130px;
+      }
+      .sarrow{
+        position: absolute;
+        left: 600px;
+        top:136px;
+        filter: blur(2.5px);
+      }
+      .varrow{
+        position: absolute;
+        left: 606px;
+        top:130px;
+      }
+      .garrow{
+        position: absolute;
+        left: 606px;
+        top:130px;
+        filter: blur(3.5px);
+      }
+      .bgarrow{
+        position: absolute;
+        left: 606px;
+        top:130px;
+        filter: blur(30.5px);
+      }
+      
+      @keyframes blink{
+        0%   {opacity: 0.5}
+        45%  {opacity: 1}
+        50%  {opacity: 0}
+        55%  {opacity: 1}
+        65%  {opacity: 0}
+        70%  {opacity: 1}
+        75% {opacity: 0}
+        80% {opacity: 1}
+        85% {opacity: 0}
+      }
+
+      @keyframes blink2{
+        0%   {opacity: 0}
+        45%  {opacity: 1}
+        50%  {opacity: 0}
+        55%  {opacity: 1}
+       
+        75% {opacity: 0}
+        80% {opacity: 1}
+        85% {opacity: 1}
+        100% {opacity: 1}
+      }
+
+      @keyframes blink3{
+        0%   {opacity: 0}
+        25%  {opacity: 1}
+        50%  {opacity: 0}
+        55%  {opacity: 1}
+        65%  {opacity: 0}
+        70%  {opacity: 1}      
+        75% {opacity: 0}
+        80% {opacity: 1}
+        85% {opacity: 0}
+        100% {opacity: 1}
+      }
+
+     
+    .blur{
+        filter: blur(3.5px);
+        animation: blink 1s;
+      }
+
+      .blur2{
+        filter: blur(30.5px);
+        display: initial;
+        animation: blink 1s;
+      }
+
+      .opacity2{
+        display: none;
+      }
+
+      .opacity{
+        opacity: 0;
+        animation: blink 1s ;
+      }
+      
+      .animation{
+           animation:blink3 1.5s infinite;
+      }
