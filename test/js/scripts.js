@@ -43,13 +43,9 @@ $(document).ready(function(){
     });
 
      scrollorama.animate('.aboutartist',{
-      delay:9103, duration:993, property:'bottom', start:0, end:993
+      delay:9073, duration:993, property:'bottom', start:0, end:993
     });
-     
-     scrollorama.animate('.roy',{
-      delay:9400, duration:493, property:'bottom', start:-650, end:-20
-    });
-     
+
    
    	scrollorama.animate('#gaming .btn',{
     	delay:2000, duration:993, property:'left', start:-800, easing:'easeOutBounce'
