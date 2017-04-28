@@ -1342,45 +1342,25 @@
 
        .r2{
         position: absolute;
-        left: 971px;
+        left: 1034px;
         top:130px;
         transform: scale(1,1);
       }
-      .sr2{
-        position: absolute;
-        left: 965px;
-        top:136px;
-        transform: scale(1,1);
-        filter: blur(2.5px);
-      }
+
       .vr2{
         position: absolute;
-        left: 971px;
+        left: 1034px;
         top:130px;
         transform: scale(1,1);  
       }
-      .gr2{
-        position: absolute;
-        left: 971px;
-        top:130px;
-        transform: scale(1,1);
-        filter: blur(3.5px);
-      }
-      .bgr2{
-        position: absolute;
-        left: 971px;
-        top:130px;
-        transform: scale(1,1);
-        filter: blur(30.5px); 
-      }
-
+     
 
      .return{
       transform: scale(0.5);
       position: absolute;
       left: 280px;
       top: 520px;
-      animation:blink3 1s infinite;
+  
      }
 
       .e4{
@@ -1388,61 +1368,39 @@
         left: 759px;
         top: 130px;
       }
-      .se4{
-        position: absolute;
-        left: 753px;
-        top: 136px;
-        filter: blur(2.5px);
-      }
+     
       .ve4{
         position: absolute;
         left: 759px;
         top: 130px;
       }
-      .ge4{
+     
+     .e5{
         position: absolute;
-        left: 759px;
+        left: 965px;
         top: 130px;
-        filter: blur(3.5px); 
       }
-      .bge4{
+     
+      .ve5{
         position: absolute;
-        left: 759px;
+        left: 965px;
         top: 130px;
-        
-        filter: blur(30.5px);     
       }
+     
 
 
       .t2{
         position: absolute;
-        left: 833px;
+        left: 903px;
         top:133px;
       }
-      .st2{
-        position: absolute;
-        left: 833px;
-        top:133px;
-        filter: blur(2.5px);
-      }
+     
       .vt2{
         position: absolute;
-        left: 833px;
+        left: 903px;
         top:133px;
       }
-      .gt2{
-        position: absolute;
-        left: 833px;
-        top:133px;
-        filter: blur(3.5px);
-      }
-      .bgt2{
-        position: absolute;
-        left: 827px;
-        top:139px;
-        filter: blur(30.5px);
-      }
-
+      
 
        .u2{
         position: absolute;
@@ -1450,37 +1408,7 @@
         top:93px;
         transform: scale(1,-1);
       }
-      .su2{
-        position: absolute;
-        left: 882px;
-        top:99px;
-        transform: scale(1,-1);
-        filter: blur(2.5px);
-      }
-      .vu2{
-        position: absolute;
-        left: 888px;
-        top:93px;
-        transform: scale(1,-1);
-     
-      }
-      .gu2{
-        position: absolute;
-        left: 888px;
-        top:93px;
-        transform: scale(1,-1);
-        filter: blur(3.5px);
       
-     
-      }
-      .bgu2{
-        position: absolute;
-        left: 888px;
-        top:93px;
-        transform: scale(1,-1);
-        filter: blur(30.5px);
-      
-      }
       
 
        .r3{
@@ -1489,69 +1417,22 @@
         top:128px;
         transform: scale(1,1);
       }
-      .sr3{
-        position: absolute;
-        left: 685px;
-        top:134px;
-        transform: scale(1,1);
-        filter: blur(2.5px);
-      }
-      .vr3{
-        position: absolute;
-        left: 691px;
-        top:128px;
-        transform: scale(1,1);  
-      }
-      .gr3{
-        position: absolute;
-        left: 691px;
-        top:128px;
-        transform: scale(1,1);
-        filter: blur(3.5px);
-      }
-      .bgr3{
-        position: absolute;
-        left: 691px;
-        top:128px;
-        transform: scale(1,1);
-        filter: blur(30.5px);
-      }
+      
 
       .n2{
         position: absolute;
-        left: 506px;
+        left: 296px;
         top:130px;
         transform: scale(-1,1);
       }
-      .sn2{
-        position: absolute;
-        left: 500px;
-        top:136px;
-        transform: scale(-1,1);
-        filter: blur(2.5px);
-      }
+      
       .vn2{
         position: absolute;
-        left: 506px;
+        left: 296px;
         top:130px;
         transform: scale(-1,1);
       }
-      .gn2{
-        position: absolute;
-        left: 506px;
-        top:130px;
-        transform: scale(-1,1);
-        filter: blur(3.5px);
-      }
-      .bgn2{
-        position: absolute;
-        left: 506px;
-        top:130px;
-        transform: scale(-1,1);
-        filter: blur(30.5px);
-      }
-
-
+     
       .arrow{
         position: absolute;
         left: 606px;
@@ -1586,6 +1467,13 @@
         right: -12%;
         bottom:-6%;
         transform: scale(-0.5,0.5);
+        animation:appearr 0.5s infinite;
+        animation-direction: alternate;
+      }
+
+      @keyframes appearr{
+          from{opacity: 0}
+          to{opacity: 1}
       }
       
       .description{

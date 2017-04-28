@@ -4052,29 +4052,7 @@
       context.lineWidth = 4.5;
       context.strokeStyle = 'white';
       context.stroke();
-///////////////////////////////////////////////n
-      var canvas = document.getElementById('sr2');
-      var context = canvas.getContext('2d');
 
-      context.beginPath();
-      context.moveTo(142, 103);
-
-      context.lineTo(142, 158);
-
-     
-      context.bezierCurveTo(143, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 128);
-
-      context.lineTo(196, 128); 
-
-      context.lineWidth = 4.5;
-      context.strokeStyle = 'black';
-      context.stroke();
 ///////////////////////////////////////////////n
       var canvas = document.getElementById('vr2');
       var context = canvas.getContext('2d');
@@ -4096,169 +4074,11 @@
       context.lineTo(196, 128); 
 
       context.lineWidth = 5;
-      context.strokeStyle = 'white';
-      context.stroke();
-///////////////////////////////////////////////n
-      var canvas = document.getElementById('gr2');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(142, 103);
-
-      context.lineTo(142, 158);
-
-     
-      context.bezierCurveTo(143, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 128);
-
-      context.lineTo(196, 128); 
-
-      context.lineWidth = 4.5;
-      context.strokeStyle = 'white';
-      context.stroke();
-///////////////////////////////////////////////n
-      var canvas = document.getElementById('bgr2');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(142, 103);
-
-      context.lineTo(142, 158);
-
-     
-      context.bezierCurveTo(143, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 128);
-
-      context.lineTo(196, 128); 
-
-      context.lineWidth = 13;
-      context.strokeStyle = 'white';
-      context.stroke();
-///////////////////////////////////////////////n
-      var canvas = document.getElementById('r3');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(142, 103);
-
-      context.lineTo(142, 158);
-
-     
-      context.bezierCurveTo(143, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 128);
-
-      context.lineTo(196, 128); 
-
-      context.lineWidth = 4.5;
-      context.strokeStyle = 'white';
-      context.stroke();
-///////////////////////////////////////////////n
-      var canvas = document.getElementById('sr3');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(142, 103);
-
-      context.lineTo(142, 158);
-
-     
-      context.bezierCurveTo(143, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 128);
-
-      context.lineTo(196, 128); 
-
-      context.lineWidth = 4.5;
-      context.strokeStyle = '#black';
-      context.stroke();
-///////////////////////////////////////////////n
-      var canvas = document.getElementById('vr3');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(142, 103);
-
-      context.lineTo(142, 158);
-
-     
-      context.bezierCurveTo(143, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 128);
-
-      context.lineTo(196, 128); 
-
-      context.lineWidth = 5;
       context.strokeStyle = '#2b2b2b';
       context.stroke();
-///////////////////////////////////////////////n
-      var canvas = document.getElementById('gr3');
-      var context = canvas.getContext('2d');
 
-      context.beginPath();
-      context.moveTo(142, 103);
 
-      context.lineTo(142, 158);
 
-     
-      context.bezierCurveTo(143, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 128);
-
-      context.lineTo(196, 128); 
-
-      context.lineWidth = 4.5;
-      context.strokeStyle = 'white';
-      context.stroke();
-///////////////////////////////////////////////n
-      var canvas = document.getElementById('bgr3');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(142, 103);
-
-      context.lineTo(142, 158);
-
-     
-      context.bezierCurveTo(143, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 128);
-
-      context.lineTo(196, 128); 
-
-      context.lineWidth = 13;
-      context.strokeStyle = 'white';
-      context.stroke();
 
 
 
@@ -4286,54 +4106,7 @@
       context.lineWidth = 4.5;
       context.strokeStyle = 'white';
       context.stroke();
-///////////////////////////////////////////////n
-      var canvas = document.getElementById('sn2');
-      var context = canvas.getContext('2d');
 
-      context.beginPath();
-      context.moveTo(142, 153);
-
-     
-      context.bezierCurveTo(138, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 132);
-
-      context.lineTo(196, 158); 
-
-      context.bezierCurveTo(196, 165,206,165, 206, 158);
-
-      context.lineTo(206, 102); 
-      context.lineWidth = 4.5;
-      context.strokeStyle = 'black';
-      context.stroke();
-///////////////////////////////////////////////n
-      var canvas = document.getElementById('gn2');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(142, 153);
-
-     
-      context.bezierCurveTo(138, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 132);
-
-      context.lineTo(196, 158); 
-
-      context.bezierCurveTo(196, 165,206,165, 206, 158);
-
-      context.lineTo(206, 102); 
-      context.lineWidth = 4.5;
-      context.strokeStyle = 'white';
-      context.stroke();
 ///////////////////////////////////////////////n
       var canvas = document.getElementById('vn2');
       var context = canvas.getContext('2d');
@@ -4358,30 +4131,7 @@
       context.lineWidth = 5;
       context.strokeStyle = '#2b2b2b';
       context.stroke();
-///////////////////////////////////////////////n
-      var canvas = document.getElementById('bgn2');
-      var context = canvas.getContext('2d');
 
-      context.beginPath();
-      context.moveTo(142, 153);
-
-     
-      context.bezierCurveTo(138, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 132);
-
-      context.lineTo(196, 158); 
-
-      context.bezierCurveTo(196, 165,206,165, 206, 158);
-
-      context.lineTo(206, 102); 
-      context.lineWidth = 13;
-      context.strokeStyle = 'white';
-      context.stroke();
 
 
 ///////////////////////////////////////////////e
@@ -4404,25 +4154,7 @@
       context.strokeStyle = 'white';
       context.stroke();
 
-///////////////////////////////////////////////e
-      var canvas = document.getElementById('se4');
-      var context = canvas.getContext('2d');
 
-      context.beginPath();
-
-      context.moveTo(188, 153);
-
-      context.bezierCurveTo(188, 158, 174, 162, 167, 162);
-
-      context.bezierCurveTo(124, 158, 133, 104, 167, 104);
-
-      context.bezierCurveTo(190, 105,196, 122, 196, 132);
-
-      context.lineTo(165, 132); 
-
-      context.lineWidth = 4.5;
-      context.strokeStyle = '#black';
-      context.stroke();
 
 ///////////////////////////////////////////////e
       var canvas = document.getElementById('ve4');
@@ -4441,11 +4173,11 @@
       context.lineTo(165, 132); 
 
       context.lineWidth = 5;
-      context.strokeStyle = 'white';
+      context.strokeStyle = '#2b2b2b';
       context.stroke();
 
 ///////////////////////////////////////////////e
-      var canvas = document.getElementById('ge4');
+      var canvas = document.getElementById('e5');
       var context = canvas.getContext('2d');
 
       context.beginPath();
@@ -4464,8 +4196,10 @@
       context.strokeStyle = 'white';
       context.stroke();
 
+
+
 ///////////////////////////////////////////////e
-      var canvas = document.getElementById('bge4');
+      var canvas = document.getElementById('ve5');
       var context = canvas.getContext('2d');
 
       context.beginPath();
@@ -4480,9 +4214,10 @@
 
       context.lineTo(165, 132); 
 
-      context.lineWidth = 13;
-      context.strokeStyle = 'white';
+      context.lineWidth = 5;
+      context.strokeStyle = '#2b2b2b';
       context.stroke();
+
 
 ///////////////////////////////////////////////t
       var canvas = document.getElementById('t2');
@@ -4510,32 +4245,7 @@
       context.lineWidth = 4.5;
       context.strokeStyle = 'white';
       context.stroke();
-///////////////////////////////////////////////t
-      var canvas = document.getElementById('st2');
-      var context = canvas.getContext('2d');
 
-      context.beginPath();
-      context.moveTo(161, 68);
-
-      context.lineTo(161, 96); 
-     
-      context.bezierCurveTo(160, 100,157,102, 155, 102);   
-
-      context.lineTo(134, 102); 
-  
-      context.bezierCurveTo(131, 102,128,108, 134, 110);
-
-      context.lineTo(155, 110);
-
-      context.bezierCurveTo(159, 110,161,110, 161, 116);
-
-      context.lineTo(161, 144);
-
-      context.bezierCurveTo(161, 164,191,166, 191, 144);
-    
-      context.lineWidth = 4.5;
-      context.strokeStyle = '#black';
-      context.stroke();
 ///////////////////////////////////////////////t
       var canvas = document.getElementById('vt2');
       var context = canvas.getContext('2d');
@@ -4562,195 +4272,25 @@
       context.lineWidth = 5;
       context.strokeStyle = '#2b2b2b';
       context.stroke();
-///////////////////////////////////////////////t
-      var canvas = document.getElementById('gt2');
-      var context = canvas.getContext('2d');
 
-      context.beginPath();
-      context.moveTo(161, 68);
 
-      context.lineTo(161, 96); 
-     
-      context.bezierCurveTo(160, 100,157,102, 155, 102);   
 
-      context.lineTo(134, 102); 
-  
-      context.bezierCurveTo(131, 102,128,108, 134, 110);
 
-      context.lineTo(155, 110);
 
-      context.bezierCurveTo(159, 110,161,110, 161, 116);
-
-      context.lineTo(161, 144);
-
-      context.bezierCurveTo(161, 164,191,166, 191, 144);
-    
-      context.lineWidth = 4.5;
-      context.strokeStyle = 'white';
-      context.stroke();
-///////////////////////////////////////////////t
-      var canvas = document.getElementById('bgt2');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(161, 68);
-
-      context.lineTo(161, 96); 
-     
-      context.bezierCurveTo(160, 100,157,102, 155, 102);   
-
-      context.lineTo(134, 102); 
-  
-      context.bezierCurveTo(131, 102,128,108, 134, 110);
-
-      context.lineTo(155, 110);
-
-      context.bezierCurveTo(159, 110,161,110, 161, 116);
-
-      context.lineTo(161, 144);
-
-      context.bezierCurveTo(161, 164,191,166, 191, 144);
-    
-      context.lineWidth = 13;
-      context.strokeStyle = 'white';
-      context.stroke();
-
-///////////////////////////////////////////////u
-      var canvas = document.getElementById('u2');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(142, 153);
-
-     
-      context.bezierCurveTo(138, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 132);
-
-      context.lineTo(196, 158); 
-
-      context.bezierCurveTo(196, 165,206,165, 206, 158);
-
-      context.lineTo(206, 102); 
-      context.lineWidth = 4.5;
-      context.strokeStyle = 'white';
-      context.stroke();
-
-///////////////////////////////////////////////u
-      var canvas = document.getElementById('su2');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(142, 153);
-
-     
-      context.bezierCurveTo(138, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 132);
-
-      context.lineTo(196, 158); 
-
-      context.bezierCurveTo(196, 165,206,165, 206, 158);
-
-      context.lineTo(206, 102); 
-      context.lineWidth = 4.5;
-      context.strokeStyle = '#black';
-      context.stroke();
-///////////////////////////////////////////////u
-      var canvas = document.getElementById('vu2');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(142, 153);
-
-     
-      context.bezierCurveTo(138, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 132);
-
-      context.lineTo(196, 158); 
-
-      context.bezierCurveTo(196, 165,206,165, 206, 158);
-
-      context.lineTo(206, 102); 
-      context.lineWidth = 5;
-      context.strokeStyle = '#2b2b2b';
-      context.stroke();
-///////////////////////////////////////////////u
-      var canvas = document.getElementById('gu2');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(142, 153);
-
-     
-      context.bezierCurveTo(138, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 132);
-
-      context.lineTo(196, 158); 
-
-      context.bezierCurveTo(196, 165,206,165, 206, 158);
-
-      context.lineTo(206, 102); 
-      context.lineWidth = 4.5;
-      context.strokeStyle = 'white';
-      context.stroke();
-///////////////////////////////////////////////u
-      var canvas = document.getElementById('bgu2');
-      var context = canvas.getContext('2d');
-
-      context.beginPath();
-      context.moveTo(142, 153);
-
-     
-      context.bezierCurveTo(138, 166,151,165, 151, 158);
-
-      context.lineTo(151, 132);
-  
-      context.bezierCurveTo(151, 128,148,103, 180, 106);
-
-      context.bezierCurveTo(196, 111,196, 120, 196, 132);
-
-      context.lineTo(196, 158); 
-
-      context.bezierCurveTo(196, 165,206,165, 206, 158);
-
-      context.lineTo(206, 102); 
-      context.lineWidth = 13;
-      context.strokeStyle = 'white';
-      context.stroke();
-///////////////////////////////////////////////u
       var canvas = document.getElementById('arrow');
       var context = canvas.getContext('2d');
 
       context.beginPath();
-      context.moveTo(672, 123);
+      context.moveTo(652, 123);
 
 
 
-      context.lineTo(672, 192); 
-       context.lineTo(200, 192); 
-       context.lineTo(200, 162);
-       context.lineTo(170, 192); 
-       context.lineTo(200, 222); 
-       context.lineTo(200, 202); 
+      context.lineTo(652, 192); 
+       context.lineTo(245, 192); 
+       context.lineTo(245, 172); 
+       context.lineTo(225, 192); 
+       context.lineTo(245, 212); 
+   
       context.lineWidth = 4.5;
       context.strokeStyle = 'white';
       context.stroke();
@@ -4760,16 +4300,15 @@
       var context = canvas.getContext('2d');
 
       context.beginPath();
-      context.moveTo(672, 123);
+      context.moveTo(652, 123);
 
 
 
-      context.lineTo(672, 192); 
-       context.lineTo(200, 192); 
-       context.lineTo(200, 162);
-       context.lineTo(170, 192); 
-       context.lineTo(200, 222); 
-       context.lineTo(200, 202); 
+      context.lineTo(652, 192); 
+       context.lineTo(245, 192); 
+       context.lineTo(245, 172); 
+       context.lineTo(225, 192); 
+       context.lineTo(245, 212);
       context.lineWidth = 4.5;
       context.strokeStyle = 'black';
       context.stroke();
@@ -4779,16 +4318,15 @@
       var context = canvas.getContext('2d');
 
       context.beginPath();
-      context.moveTo(672, 123);
+      context.moveTo(652, 123);
 
 
 
-      context.lineTo(672, 192); 
-       context.lineTo(200, 192); 
-       context.lineTo(200, 162);
-       context.lineTo(170, 192); 
-       context.lineTo(200, 222); 
-       context.lineTo(200, 202); 
+      context.lineTo(652, 192); 
+       context.lineTo(245, 192); 
+       context.lineTo(245, 172); 
+       context.lineTo(225, 192); 
+       context.lineTo(245, 212);
       context.lineWidth = 5;
       context.strokeStyle = 'white';
       context.stroke();
@@ -4798,16 +4336,15 @@
       var context = canvas.getContext('2d');
 
       context.beginPath();
-      context.moveTo(672, 123);
+      context.moveTo(652, 123);
 
 
 
-      context.lineTo(672, 192); 
-       context.lineTo(200, 192); 
-       context.lineTo(200, 162);
-       context.lineTo(170, 192); 
-       context.lineTo(200, 222); 
-       context.lineTo(200, 202); 
+      context.lineTo(652, 192); 
+       context.lineTo(245, 192); 
+       context.lineTo(245, 172); 
+       context.lineTo(225, 192); 
+       context.lineTo(245, 212);
       context.lineWidth = 4.5;
       context.strokeStyle = 'white';
       context.stroke();
@@ -4817,16 +4354,15 @@
       var context = canvas.getContext('2d');
 
       context.beginPath();
-      context.moveTo(672, 123);
+      context.moveTo(652, 123);
 
 
 
-      context.lineTo(672, 192); 
-       context.lineTo(200, 192); 
-       context.lineTo(200, 162);
-       context.lineTo(170, 192); 
-       context.lineTo(200, 222); 
-       context.lineTo(200, 202); 
+      context.lineTo(652, 192); 
+       context.lineTo(245, 192); 
+       context.lineTo(245, 172); 
+       context.lineTo(225, 192); 
+       context.lineTo(245, 212);
       context.lineWidth = 13;
       context.strokeStyle = 'white';
       context.stroke();

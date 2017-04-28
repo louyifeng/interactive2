@@ -14,13 +14,18 @@ $(document).ready(function(){
       delay:0, duration:3500, property:'opacity', start:1, end:0.3
     });
 
+    scrollorama.animate('.comic',{
+      delay:0, duration:500, property:'opacity', start:0, end:1
+    });
+
+    
  
     scrollorama.animate('.mask2',{
       delay:2500, duration:3500, property:'opacity', start:0.3, end:1
     });
 
   
-
+  
     
     scrollorama.animate('.plane',{
       delay:7600, duration:993, property:'left', start:-1500, end:-100
@@ -43,34 +48,63 @@ $(document).ready(function(){
     });
 
      scrollorama.animate('.aboutartist',{
-      delay:9073, duration:993, property:'bottom', start:0, end:993
+      delay:9188, duration:700, property:'bottom', start:0, end:700
+    });
+
+     scrollorama.animate('.hand1',{
+      delay:11000, duration:1093, property:'left', start:-800, end:-10
+    });
+
+     scrollorama.animate('.hand2',{
+      delay:11000, duration:1093, property:'right', start:-800, end:-10
+    });
+    
+   
+    
+    scrollorama.animate('.exhibitiontag',{
+      delay:12230, duration:993, property:'bottom', start:0, end:993
+    });
+
+     scrollorama.animate('.bullet',{
+      delay:14030, duration:2093, property:'zoom', start:0.04, end:1.5
+    });
+
+     scrollorama.animate('.varoom',{
+      delay:14130, duration:93, property:'zoom', start:0, end:1
+    });
+
+     scrollorama.animate('.varoom',{
+      delay:14180, duration:93, property:'opacity', start:1, end:0
+    });
+
+      scrollorama.animate('.artworkused',{
+      delay:16000, duration:900, property:'bottom', start:0, end:900
+    });
+
+scrollorama.animate('.credit',{
+      delay:17700, duration:100, property:'bottom', start:-200, end:-50
     });
 
    
-   	scrollorama.animate('#gaming .btn',{
-    	delay:2000, duration:993, property:'left', start:-800, easing:'easeOutBounce'
-   	});
+ 
    
-   	scrollorama.animate('#cs ul li:nth-child(1)',{
-    	delay:2979, duration:993, property:'top', start:840, end: 640
-   	});
-   	scrollorama.animate('#cs ul li:nth-child(2)',{
-    	delay:2979, duration:993, property:'top', start:800, end: 640
-   	});
-   	scrollorama.animate('#cs ul li:nth-child(3)',{
-    	delay:2979, duration:993, property:'top', start:920, end: 580
-   	});
-   	scrollorama.animate('#cs ul li:nth-child(4)',{
-    	delay:2979, duration:993, property:'top', start:880, end: 620
-   	});
-   	scrollorama.animate('#cs ul li:nth-child(5)',{
-    	delay:2979, duration:993, property:'top', start:830, end: 660
-   	});
-   	scrollorama.animate('#cs ul li:nth-child(6)',{
-    	delay:2979, duration:993, property:'top', start:960, end: 600
-   	});
-   	
-   	scrollorama.animate('#jake h2',{
-    	delay:4500, duration:900, property:'top', start:0, easing:'easeOutBounce'
-   	});
+   
 });
+
+
+
+    $(document).ready(function(){
+
+      $(".arrow").click(function(){
+
+        $("html, body"). animate({
+
+          scrollTop: $(".endpoint").offset().top
+
+        },3000);
+
+      })
+
+
+    });
+        
