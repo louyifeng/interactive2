@@ -17,6 +17,7 @@ body {
 
 #coke div {
 	position: absolute;
+	transition: 1s;
   	transform-origin: center left;
   	
 }
