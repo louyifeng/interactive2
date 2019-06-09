@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
 	$('.curtains>li').css('position', 'fixed');
